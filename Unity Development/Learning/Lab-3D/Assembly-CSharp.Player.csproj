@@ -45,6 +45,9 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2022.3.11f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GetComponent.cs" />
+     <Compile Include="Assets\Scripts\HeroesNames.cs" />
+     <Compile Include="Assets\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\MouseClick.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Reference Include="UnityEngine">

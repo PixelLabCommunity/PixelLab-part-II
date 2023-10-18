@@ -320,9 +320,11 @@ GameObject:
   - component: {fileID: 1516174414}
   - component: {fileID: 1516174413}
   - component: {fileID: 1516174412}
+  - component: {fileID: 1516174417}
   - component: {fileID: 1516174411}
-  - component: {fileID: 1516174415}
-  - component: {fileID: 1516174416}
+  - component: {fileID: 1516174418}
+  - component: {fileID: 1516174420}
+  - component: {fileID: 1516174419}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -416,20 +418,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -36.757, y: -15.603, z: 16.556}
---- !u!114 &1516174415
-MonoBehaviour:
+--- !u!54 &1516174417
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516174410}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a17009bfe1a714bb5104c987dbbc6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 100
---- !u!114 &1516174416
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1516174418
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -438,10 +454,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516174410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b18c69c079941c448d2161e18bd15f2, type: 3}
+  m_Script: {fileID: 11500000, guid: d90514b6c7de65843b13b1817b2ad3aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+--- !u!114 &1516174419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516174410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a0b44b31afc19244ae018a4e95d4867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreResult: 9005
+  scoreResultFail: 205
+--- !u!114 &1516174420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516174410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7568e3c41352894f84d35529b0c4ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPlayer: Alex!
+  secondPlayer: Lena!
 --- !u!1 &2005738511
 GameObject:
   m_ObjectHideFlags: 0
