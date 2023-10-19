@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638332446396561510
-    m_Hash: 942416403
+      ticks: 638333021838051561
+    m_Hash: 3788696576
   m_LockFileStatus:
     m_FilePath: D:/Game Development/PixelLab-projects/Unity Development/Learning/Lab-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638332446396588489
-    m_Hash: 1292536985
+      ticks: 638333021838092337
+    m_Hash: 2324307365
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -536,12 +536,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.7.6
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-projects\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: D:\Game Development\PixelLab-projects\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -688,13 +688,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
+  datePublishedTicks: 638326112840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
     path: 
   unityLifecycle:
     version: 1.7.5

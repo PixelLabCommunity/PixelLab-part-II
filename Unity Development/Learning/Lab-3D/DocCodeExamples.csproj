@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Library\PackageCache\com.unity.timeline@1.7.5\DocCodeExamples" />
-     <None Include="Library\PackageCache\com.unity.timeline@1.7.5\DocCodeExamples\DocCodeExamples.asmdef" />
+     <Folder Include="Library\PackageCache\com.unity.timeline@1.7.6\DocCodeExamples" />
+     <None Include="Library\PackageCache\com.unity.timeline@1.7.6\DocCodeExamples\DocCodeExamples.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\MouseClick.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\TimeDeltaTime.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
