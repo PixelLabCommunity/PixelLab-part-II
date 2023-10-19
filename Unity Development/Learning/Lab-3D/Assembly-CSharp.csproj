@@ -48,12 +48,14 @@
      <Compile Include="Assets\Scripts\BuildStuff.cs" />
      <Compile Include="Assets\Scripts\DestroyPrefab.cs" />
      <Compile Include="Assets\Scripts\NameStuff.cs" />
+     <Compile Include="Assets\Scripts\PlayersSetUp.cs" />
      <Compile Include="Assets\Scripts\GunFire.cs" />
      <Compile Include="Assets\Scripts\GetComponent.cs" />
      <Compile Include="Assets\Scripts\HeroesNames.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\MouseClick.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\PlayerSetUpPart2.cs" />
      <Compile Include="Assets\Scripts\TimeDeltaTime.cs" />
      <Folder Include="Assets" />
      <None Include="Library\PackageCache\com.unity.settings-manager@2.0.1\package.json" />
