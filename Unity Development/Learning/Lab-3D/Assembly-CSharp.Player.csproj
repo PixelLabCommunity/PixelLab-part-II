@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\HeroesNames.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
      <Compile Include="Assets\Scripts\MouseClick.cs" />
+     <Compile Include="Assets\Scripts\InvokeGameObject.cs" />
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\PlayerSetUpPart2.cs" />
      <Compile Include="Assets\Scripts\TimeDeltaTime.cs" />
