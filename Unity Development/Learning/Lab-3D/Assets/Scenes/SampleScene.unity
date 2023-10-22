@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 43207816}
   - component: {fileID: 43207815}
   - component: {fileID: 43207817}
+  - component: {fileID: 43207818}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -176,7 +177,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43207814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9766e2431d71ab040a71cf5d52043dc2, type: 3}
   m_Name: 
@@ -185,6 +186,20 @@ MonoBehaviour:
   - {fileID: 1734123739}
   - {fileID: 1048101952}
   - {fileID: 368560688}
+--- !u!114 &43207818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43207814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d495f8502acf14992874e086c3ecc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 8295182045936389899, guid: afa21f28c0762cd4cbf65e18da0872a6, type: 3}
+  spawnPlace: {x: 1.44, y: 5.8, z: -3.53}
 --- !u!1 &368560688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5748530914690539613, guid: e934ad1e47c61fa4f8ee811b0515a700, type: 3}
@@ -714,7 +729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8249786012562544158, guid: e934ad1e47c61fa4f8ee811b0515a700, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 1.87
       objectReference: {fileID: 0}
     - target: {fileID: 8249786012562544158, guid: e934ad1e47c61fa4f8ee811b0515a700, type: 3}
       propertyPath: m_LocalPosition.z
