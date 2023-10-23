@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\PlayerSetUpPart2.cs" />
      <Compile Include="Assets\Scripts\TimeDeltaTime.cs" />
+     <Compile Include="Assets\Scripts\Directions.cs" />
      <Folder Include="Assets" />
      <None Include="Library\PackageCache\com.unity.settings-manager@2.0.1\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />

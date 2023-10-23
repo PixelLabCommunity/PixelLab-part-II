@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\PlayerSetUpPart2.cs" />
      <Compile Include="Assets\Scripts\TimeDeltaTime.cs" />
+     <Compile Include="Assets\Scripts\Directions.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Unity Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
