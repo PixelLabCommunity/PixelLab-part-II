@@ -11,6 +11,7 @@ public class Directions : MonoBehaviour
     private void Update()
     {
         Debug.Log($"Now I can move to {BaseDirections.North}");
+        SetDirections(BaseDirections.North);
     }
 
     private BaseDirections SetDirections(BaseDirections dir)

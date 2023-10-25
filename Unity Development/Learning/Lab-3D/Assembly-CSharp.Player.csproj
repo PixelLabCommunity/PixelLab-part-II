@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\BuildStuff.cs" />
      <Compile Include="Assets\Scripts\DestroyPrefab.cs" />
      <Compile Include="Assets\Scripts\NameStuff.cs" />
+     <Compile Include="Assets\Scripts\LogErrors.cs" />
      <Compile Include="Assets\Scripts\PlayersSetUp.cs" />
      <Compile Include="Assets\Scripts\GunFire.cs" />
      <Compile Include="Assets\Scripts\GetComponent.cs" />
