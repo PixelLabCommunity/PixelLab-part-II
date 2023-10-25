@@ -390,6 +390,16 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+ 
+# Unity Cache Project
+/Unity Development/Games/Roll-a-Ball-3D/Library/Artifacts/
+/Unity Development/Games/Roll-a-Ball-3D/Library/Bee/
+/Unity Development/Games/Roll-a-Ball-3D/Library/PackageCache/
+/Unity Development/Games/Roll-a-Ball-3D/Library/StateCache/
+/Unity Development/Games/Roll-a-Ball-3D/Library/ShaderCache/
+/Unity Development/Games/Roll-a-Ball-3D/Library/PlayerDataCache/
+/Unity Development/Games/Roll-a-Ball-3D/Library/BurstCache/
+/Unity Development/Games/Roll-a-Ball-3D/ArtifactDB
 
 # JetBrains Rider
 *.sln.iml
