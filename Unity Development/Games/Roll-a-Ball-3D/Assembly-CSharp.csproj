@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Input\PlayerMovement.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />
      <Folder Include="Assets" />
@@ -209,10 +211,12 @@
      <Folder Include="Library\PackageCache\com.unity.modules.ai@1.0.0" />
      <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\PackageConversionData_Assets.json" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@15.0.7\Textures\BlueNoise16\L" />
+     <Folder Include="Assets\Scripts" />
      <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Package Resources" />
      <Folder Include="Library\PackageCache\com.unity.modules.terrain@1.0.0" />
      <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
+     <Folder Include="Assets\Input" />
      <Folder Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib" />
      <None Include="Library\PackageCache\com.unity.burst@1.8.9\Unity.Burst.Unsafe.xml" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@15.0.7\ValidationConfig.json" />
