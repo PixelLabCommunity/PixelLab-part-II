@@ -173,8 +173,8 @@
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\OnScreen\OnScreenButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Actions\Interactions\HoldInteraction.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\UI\NavigationModel.cs" />
-     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\BuildPipeline\LinkFileGenerator.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\IntegerControl.cs" />
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\BuildPipeline\LinkFileGenerator.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Controls\KeyControl.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Events\ActionEvent.cs" />

@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Scripts\NewInputSystemControls.cs" />
      <Compile Include="Assets\Input\PlayerMovement.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />

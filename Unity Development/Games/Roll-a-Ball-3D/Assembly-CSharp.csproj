@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\MainController.cs" />
+     <Compile Include="Assets\Scripts\NewInputSystemControls.cs" />
      <Compile Include="Assets\Input\PlayerMovement.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />
@@ -171,6 +172,7 @@
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@15.0.7\Textures\2D" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@15.0.7\ValidationExceptions.json" />
      <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+     <Folder Include="Assets\Prefabs" />
      <Folder Include="Library\PackageCache\com.unity.ai.navigation@1.1.5\EditorResources\Overlay" />
      <None Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\package.json" />
      <Folder Include="Library\PackageCache\com.unity.textmeshpro@3.0.6" />
