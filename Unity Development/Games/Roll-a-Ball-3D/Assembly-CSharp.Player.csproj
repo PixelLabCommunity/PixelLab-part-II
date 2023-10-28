@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\MainController.cs" />
      <Compile Include="Assets\Scripts\NewInputSystemControls.cs" />
      <Compile Include="Assets\Input\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\RotatePickUp.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\CameraMainController.cs" />
