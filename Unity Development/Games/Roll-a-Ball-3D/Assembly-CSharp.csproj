@@ -51,6 +51,7 @@
      <Compile Include="Assets\Input\PlayerMovement.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\CameraMainController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Library\BuildInstructions" />
      <None Include="Library\PackageCache\com.unity.settings-manager@2.0.1\package.json" />
