@@ -377,10 +377,10 @@
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>D:\Game Development\PixelLab-projects\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="JetBrains.Rider.PathLocator">
-     <HintPath>D:\Game Development\PixelLab-projects\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ide.rider@3.0.26\Rider\Editor\JetBrains.Rider.PathLocator.dll</HintPath>
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ide.rider@3.0.26\Rider\Editor\JetBrains.Rider.PathLocator.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

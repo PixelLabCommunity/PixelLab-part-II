@@ -388,7 +388,7 @@
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Unsafe">
-     <HintPath>D:\Game Development\PixelLab-projects\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.burst@1.8.9\Unity.Burst.Unsafe.dll</HintPath>
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.burst@1.8.9\Unity.Burst.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

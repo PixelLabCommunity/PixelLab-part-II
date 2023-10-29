@@ -259,10 +259,10 @@
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>D:\Game Development\PixelLab-projects\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\Game Development\PixelLab-projects\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Games\Roll-a-Ball-3D\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.18f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
