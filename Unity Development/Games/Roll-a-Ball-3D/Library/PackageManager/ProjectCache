@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Roll-a-Ball-3D/Packages
-m_EditorVersion: 2023.1.18f1 (2b639e48c919)
+m_EditorVersion: 2023.1.19f1 (629111e352bc)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.5
   testable: 0
