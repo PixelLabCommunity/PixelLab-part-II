@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638343852270391558
-    m_Hash: 1257004663
+      ticks: 638346365023713436
+    m_Hash: 3692227197
   m_LockFileStatus:
     m_FilePath: D:/Game Development/PixelLab-part-II/Unity Development/Learning/Lab-3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638343852461848352
-    m_Hash: 1270157749
+      ticks: 638346365023713436
+    m_Hash: 118566356
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
