@@ -54,6 +54,7 @@
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\PlayerController.cs" />
      <Compile Include="Assets\UnityTechnologies\RollABall\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\CameraMainController.cs" />
+     <Compile Include="Assets\Scripts\PickUpScore.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.1.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
      </Reference>
