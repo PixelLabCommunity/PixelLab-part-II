@@ -2,12 +2,6 @@ using UnityEngine;
 
 public class Directions : MonoBehaviour
 {
-    private void Start()
-    {
-        BaseDirections myDirections;
-        myDirections = BaseDirections.East;
-    }
-
     private void Update()
     {
         Debug.Log($"Now I can move to {BaseDirections.North}");
