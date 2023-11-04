@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -135,6 +132,9 @@ GameObject:
   - component: {fileID: 457755908}
   - component: {fileID: 457755907}
   - component: {fileID: 457755906}
+  - component: {fileID: 457755911}
+  - component: {fileID: 457755910}
+  - component: {fileID: 457755912}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -228,6 +228,141 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &457755910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457755905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 58b26bce6c726c04d8c9e0e375070ee5, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 708277835}
+--- !u!54 &457755911
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457755905}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &457755912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457755905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6fbbc8d998e02f41b44400b7fcfd245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerControls:
+    m_Name: Player Controls
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 23e72b55-6525-4f92-a69d-57b31280ee7d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 3D Vector
+      m_Id: decd889c-f99c-487e-8ee2-55e233fc277a
+      m_Path: 3DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 5d8cd7d1-9a20-46f9-a7d5-f25d67a5612b
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: down
+      m_Id: d47dd5d3-9098-489b-b282-51335063b00d
+      m_Path: <Keyboard>/f
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: left
+      m_Id: d218789e-a18c-4c9d-874c-48340585ca4f
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: right
+      m_Id: cfa4630b-8351-4061-ab55-5991a89d3dd1
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: forward
+      m_Id: dfc5e671-ee2c-4b36-8ff5-f4a3b6f71485
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    - m_Name: backward
+      m_Id: a3aa9e67-1c5c-47e0-a9bd-7726d8613d87
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Controls
+      m_Flags: 8
+    m_Flags: 0
+  movementSpeed: 10
 --- !u!1 &708277833
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,13 +448,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708277833}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.22131409, y: -0, z: -0, w: 0.97520256}
+  m_LocalPosition: {x: -4.52, y: 5.01, z: -2.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.572, y: 0, z: 0}
 --- !u!1 &1460840093
 GameObject:
   m_ObjectHideFlags: 0
