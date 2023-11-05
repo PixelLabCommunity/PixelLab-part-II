@@ -4,10 +4,10 @@ using UnityEngine.InputSystem;
 public class NewInputSystem : MonoBehaviour
 {
     [SerializeField] private InputAction playerControls;
-    [SerializeField] private float movementSpeed = 10f;
-    private readonly float _baseSpawn = 0.0f;
-    private Vector3 _moveDirections = Vector3.zero;
+    [SerializeField] private float movementSpeed = 10.0f;
+    private readonly float _basePositionY = 0.0f;
     private Rigidbody _rigidbody;
+    private Vector3 _spawnPostion = Vector3.zero;
 
     private void Start()
     {
@@ -16,13 +16,13 @@ public class NewInputSystem : MonoBehaviour
 
     private void Update()
     {
-        _moveDirections = playerControls.ReadValue<Vector3>();
+        _spawnPostion = playerControls.ReadValue<Vector3>();
     }
 
     private void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector3(_moveDirections.x * movementSpeed, _baseSpawn,
-            _moveDirections.z * movementSpeed);
+        _rigidbody.velocity = new Vector3(_spawnPostion.x * movementSpeed, _basePositionY,
+            _spawnPostion.z * movementSpeed);
     }
 
     private void OnEnable()

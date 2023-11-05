@@ -297,16 +297,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6fbbc8d998e02f41b44400b7fcfd245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerControls:
+  playerControls:
     m_Name: Player Controls
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 1422264d-3bfb-403a-a0ae-02d51efb29ec
+    m_Id: 1e4d9adc-92c7-4f65-869b-b50a8acb6939
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 3D Vector
-      m_Id: bf166fac-4965-432b-8614-0a3a830e9f18
+      m_Id: 508ab425-4a1d-49a6-a2ee-92c62b5ea29d
       m_Path: 3DVector
       m_Interactions: 
       m_Processors: 
@@ -314,7 +314,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 4
     - m_Name: up
-      m_Id: d33dd0bc-3189-4189-a5fe-3c4bb6d996ee
+      m_Id: d936d218-0ef6-4e02-a6f9-f72d173af38e
       m_Path: 
       m_Interactions: 
       m_Processors: 
@@ -322,7 +322,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: down
-      m_Id: 4d2a7a94-1f79-4496-8cd6-3d1fa864d620
+      m_Id: 6137e2f9-30f7-4c2c-af7d-b068b41bcdae
       m_Path: 
       m_Interactions: 
       m_Processors: 
@@ -330,7 +330,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: left
-      m_Id: 440d9f8c-eafc-49d6-8bef-bb82fae49ae5
+      m_Id: 1008f274-e0ee-4946-9364-4e1eedc9cdb6
       m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
@@ -338,7 +338,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: right
-      m_Id: 07946008-44cf-4a82-b579-0f5cfbb8f09f
+      m_Id: 9247d1ad-d83e-4441-a08a-a4b062e57397
       m_Path: <Keyboard>/d
       m_Interactions: 
       m_Processors: 
@@ -346,7 +346,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: forward
-      m_Id: aa84838d-9b67-4e95-89d9-17b9bf63b786
+      m_Id: 380fe296-fbe1-4c31-858b-0c7f2f2b4d69
       m_Path: <Keyboard>/w
       m_Interactions: 
       m_Processors: 
@@ -354,7 +354,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: backward
-      m_Id: 37234c1e-d2b3-4223-9d50-11f34d7b09c3
+      m_Id: 4526c96f-910e-4b0e-bcfa-1140c86f01f6
       m_Path: <Keyboard>/s
       m_Interactions: 
       m_Processors: 
@@ -362,7 +362,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     m_Flags: 0
-  movementSpeed: 10
+  playerSpeed: 10
 --- !u!1 &708277833
 GameObject:
   m_ObjectHideFlags: 0
