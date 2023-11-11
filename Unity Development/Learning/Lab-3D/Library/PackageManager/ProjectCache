@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638346397501107040
-    m_Hash: 381528537
+      ticks: 638353316285310380
+    m_Hash: 886323377
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Learning/Lab-3D/Packages
-m_EditorVersion: 2023.1.19f1 (629111e352bc)
+m_EditorVersion: 2023.1.20f1 (35a524b12060)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
@@ -224,7 +224,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.21
+    version: 2.0.22
   - name: com.unity.test-framework
     version: 1.3.9
   - name: com.unity.ext.nunit
@@ -341,7 +341,6 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     compatible:
-    - 3.0.25
     - 3.0.26
     recommended: 3.0.26
     deprecated: []
@@ -373,7 +372,7 @@ m_ResolvedPackages:
     revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
     path: 
   unityLifecycle:
-    version: 3.0.25
+    version: 3.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3315,12 +3314,12 @@ m_ResolvedPackages:
     null exception when using EmptyConstraint with a null object"}'
   assetStore:
     productId: 
-- packageId: com.unity.ide.visualstudio@2.0.21
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
-  version: 2.0.21
+  version: 2.0.22
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.21
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3362,7 +3361,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.21
     - 2.0.22
     recommended: 2.0.22
     deprecated: []
@@ -3391,16 +3389,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315250000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: eb2b500b99f6429d3d9dcb8acbcbd366dfbb42be
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.21
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3410,14 +3408,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Only disable the legacy `com.unity.ide.vscode`
-    package going forward.\n- Fix json parsing issues with specific non-UTF code
-    pages.\n\nProject generation:\n\n- Target `netstandard2.1` instead of `netstandard2.0`.\n-
-    Set `defaultSolution` in `settings.json`.\n- Remove `files.exclude` entries for
-    root `csproj` and `sln` files in `settings.json` when needed.\n- Add `vstuc`
-    launch configuration to `launch.json` when needed.\n- Add `visualstudiotoolsforunity.vstuc`
-    entry to `extensions.json` when needed.\n- You can prevent the package from patching
-    those configuration files by creating a `.vscode/.vstupatchdisable` file."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
+    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
+    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
+    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
+    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
+    Prevent circular dependency errors with SDK-Style projects."}'
   assetStore:
     productId: 
 - packageId: com.unity.editorcoroutines@1.0.0
