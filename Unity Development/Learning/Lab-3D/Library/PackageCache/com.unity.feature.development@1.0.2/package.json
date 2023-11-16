@@ -14,5 +14,6 @@
     "com.unity.performance.profile-analyzer": "default",
     "com.unity.test-framework": "default",
     "com.unity.testtools.codecoverage": "default"
-  }
+  },
+  "_fingerprint": "c770b6a36a30949b030c5ec02d835f771b975cbb"
 }
