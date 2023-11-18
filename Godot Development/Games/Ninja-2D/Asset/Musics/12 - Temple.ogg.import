@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dn6rid0cmnl5n"
+path="res://.godot/imported/12 - Temple.ogg-59a0ea0e8058d6d225d85dee5b0f914c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Asset/Musics/12 - Temple.ogg"
+dest_files=["res://.godot/imported/12 - Temple.ogg-59a0ea0e8058d6d225d85dee5b0f914c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
