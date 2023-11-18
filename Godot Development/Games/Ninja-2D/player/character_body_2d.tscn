@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://dvq5boong4lx3"]
+[gd_scene load_steps=2 format=3 uid="uid://dvq5boong4lx3"]
+
+[ext_resource type="Texture2D" uid="uid://drpswr8o2u72r" path="res://Asset/Actor/Characters/DarkNinja/SpriteSheet.png" id="1_80l4b"]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+texture_filter = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_80l4b")
+hframes = 4
+vframes = 7
