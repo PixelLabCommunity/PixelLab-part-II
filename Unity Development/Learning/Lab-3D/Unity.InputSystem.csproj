@@ -289,8 +289,8 @@
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\Debugger\InputDebuggerWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\SpriteUtilities.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\NativeInputRuntime.cs" />
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Utilities\SpriteUtilities.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\UITKAssetEditor\SerializedInputBinding.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs" />
      <Compile Include="Library\PackageCache\com.unity.inputsystem@1.7.0\InputSystem\Plugins\iOS\iOSPostProcessBuild.cs" />
@@ -832,6 +832,9 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
@@ -861,9 +864,6 @@
      </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

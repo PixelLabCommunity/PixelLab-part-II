@@ -61,13 +61,13 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGraph\Targets\UniversalTarget.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Overrides\DepthOfFieldEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGraph\Targets\UniversalSixWaySubTarget.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\Selection\IndexedSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Decal\DecalShaderGraphGUI.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\Selection\IndexedSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGUI\SixWayGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\UniversalRenderPipelineAsset\UniversalRenderPipelineAssetUI.Drawers.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\Shapes\Spline.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Settings\PropertyDrawers\URPShaderStrippingSettingsPropertyDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGraph\AssetCallbacks\CreateCanvasShaderGraph.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Settings\PropertyDrawers\URPShaderStrippingSettingsPropertyDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGUI\Shaders\BakedLitShader.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGUI\ParticleGUI.cs" />
@@ -244,8 +244,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Decal\ProjectedTransform.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\Converter\BuiltInToURP2DMaterialUpgrader.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\GUIFramework\CommandAction.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\VFXGraph\VFXDecalURPOutput.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\AssetVersion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\VFXGraph\VFXDecalURPOutput.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\AssetPostProcessors\AutodeskInteractiveMaterialImport.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Camera\UniversalRenderPipelineCameraUI.PresetInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\View\EditablePathView.cs" />
@@ -274,8 +274,8 @@
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShapeEditor\GUIFramework\ClickAction.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGUI\BaseShaderGUI.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\Deprecated.cs" />
-     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShaderGraph\AssetCallbacks\CreateSpriteCustomLitShaderGraph.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\Shadows\ShadowProvider\ShadowShape2DProvider_ProperyDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\2D\ShaderGraph\AssetCallbacks\CreateSpriteCustomLitShaderGraph.cs" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\BuildProcessors" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGraph\Includes\Varyings.hlsl" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\VFXGraph\Shaders\Templates\URPDecal\PassScreenSpace.template" />
@@ -776,6 +776,9 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
@@ -805,9 +808,6 @@
      </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

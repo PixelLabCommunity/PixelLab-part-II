@@ -125,8 +125,8 @@
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\GridLayoutGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Toggle.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Culling\Clipping.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\FontUpdateTracker.cs" />
      <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Editor\ShaderGUI\MaterialAssemblyReference\RawRenderQueue.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\FontUpdateTracker.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\LayoutElement.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\Layout\LayoutGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Runtime\UGUI\UI\Core\MaskUtilities.cs" />
@@ -352,14 +352,14 @@
      <Reference Include="UnityEngine.XRModule">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Collections.LowLevel.ILSupport">
+     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-     <HintPath>D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.0f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
