@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638358450801871285
-    m_Hash: 4111439880
+      ticks: 638363686125195561
+    m_Hash: 2904125985
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Learning/Lab-3D/Packages
-m_EditorVersion: 2023.2.0f1 (d0d63d039a6f)
+m_EditorVersion: 2023.2.1f1 (a6dd9a634651)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.9.7
   testable: 0
@@ -797,7 +797,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.render-pipelines.core
     version: 16.0.4
   - name: com.unity.ugui
@@ -3565,12 +3565,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.burst@1.8.9
+- packageId: com.unity.burst@1.8.10
   testable: 0
   isDirectDependency: 0
-  version: 1.8.9
+  version: 1.8.10
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.burst@1.8.9
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D\Library\PackageCache\com.unity.burst@1.8.10
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3710,10 +3710,11 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
     compatible:
-    - 1.8.9
     - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    recommended: 1.8.11
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -3734,16 +3735,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638314141790000000
+  datePublishedTicks: 638350315750000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 1aa8f2db606554f28aa01007e92600cd24643852
+    revision: 5c15eb0286bb61ca0ab006d4db90460d7304c8f3
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3753,7 +3754,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n### Added\n\n### Removed\n\n### Changed"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed the Burst Inspector not displaying
+    target methods if namespace/class contained the method name.\n- Linking libstdc++/libc++
+    statically on HMI platforms\n- Fixed an issue that caused an empty variable to
+    be returned if it is between a zero initializer\n- Native debug information would
+    fail to reflect the contents of parameters to functions.\n- For native debug
+    information, type symbols can now be referenced using :: separator between namespaces
+    (C++ style) - E.g. Example.Type  becomes Example::Type.\n- Fixed that changing
+    certain player build platform settings (like SDK version) would not trigger Burst
+    to recompile\n- Fixed invalid burst string formats leading to internal compiler
+    error.\n- Fixed QNX player builds on 32-bit ARM\n- Fixed an error thrown by the
+    Burst Inspector when opening a non-static job with special characters in its
+    name\n\n### Added\n- Added support for System.Math functions Acosh, Asinh, Atanh,
+    Cbrt, CopySign, Log2, SinCos, FusedMultiplyAdd, and ILogB\n\n### Removed\n- Remove
+    all code specific to DOTS Runtime\n\n### Changed\n- Use mimalloc as our native
+    allocator on Windows to speed up concurrently executing LLVM work\n\n### Known
+    Issues"}'
   assetStore:
     productId: 
 - packageId: com.unity.render-pipelines.core@16.0.4
@@ -3917,7 +3933,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.burst
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
   - name: com.unity.test-framework
@@ -4111,7 +4127,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.burst
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
   - name: com.unity.test-framework
@@ -4744,12 +4760,27 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -4770,9 +4801,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4830,7 +4861,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.burst
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.nuget.mono-cecil
@@ -5069,7 +5100,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.9
+    version: 1.8.10
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.nuget.mono-cecil
@@ -5147,6 +5178,12 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.6-preview.2
+    - 1.0.0-preview.1
+    - 1.10.0-preview.1
+    - 1.10.1-preview.1
+    - 1.10.1
+    - 1.10.2
     - 1.11.4
     compatible:
     - 1.11.4
@@ -5165,9 +5202,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637852971930000000
   documentationUrl: 
   hasRepository: 1
   repository:
