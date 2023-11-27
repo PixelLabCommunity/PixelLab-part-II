@@ -73,8 +73,8 @@
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\Analytics\CoverageAnalytics.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\CoverageReportType.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\Utils\JsonUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\Events\Events.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\CommandLineParser\CommandLineOption.cs" />
+     <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\Events\Events.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\CoverageFormats\CoverageFormat.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\CoverageStats\CoverageStats.cs" />
      <Compile Include="Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\Editor\Events\SessionEventInfo.cs" />
