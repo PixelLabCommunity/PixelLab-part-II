@@ -191,6 +191,7 @@
      <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Textures\BlueNoise64\L" />
+     <Folder Include="Assets\Supercyan Free Forest Sample" />
      <Folder Include="Library\PackageCache\com.unity.modules.uielements@1.0.0" />
      <None Include="Library\PackageCache\com.unity.visualscripting@1.9.1\ValidationExceptions.json" />
      <Folder Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0" />
@@ -225,6 +226,7 @@
      <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
      <Folder Include="Library\PackageCache\com.unity.collab-proxy@2.2.0" />
      <Folder Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\Textures\2D" />
+     <Folder Include="Assets\Supercyan Free Forest Sample\Scenes" />
      <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.4\ValidationExceptions.json" />
      <Folder Include="Assets\StarterAssets\Mobile\Prefabs\CanvasInputs" />
      <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
