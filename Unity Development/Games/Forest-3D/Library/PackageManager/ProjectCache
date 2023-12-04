@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-3D/Packages
-m_EditorVersion: 2023.2.1f1 (a6dd9a634651)
+m_EditorVersion: 2023.2.2f1 (dfe9eb92cac5)
 m_ResolvedPackages:
 - packageId: com.unity.adaptiveperformance@5.0.2
   testable: 0
@@ -3455,6 +3455,7 @@ m_ResolvedPackages:
     - 1.3.8
     - 1.3.9
     - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3462,6 +3463,7 @@ m_ResolvedPackages:
     compatible:
     - 1.3.9
     - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
