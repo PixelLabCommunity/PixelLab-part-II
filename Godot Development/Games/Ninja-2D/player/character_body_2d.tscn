@@ -110,7 +110,6 @@ script = ExtResource("1_guho0")
 texture = ExtResource("1_80l4b")
 hframes = 4
 vframes = 7
-frame = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
