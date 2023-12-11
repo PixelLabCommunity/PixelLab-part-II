@@ -419,6 +419,15 @@ FodyWeavers.xsd
 /Unity Development/Games/Forest-3D/Library/BurstCache/
 /Unity Development/Games/Forest-3D/ArtifactDB
 
+/Unity Development/Games/Forest-2D/Library/Artifacts/
+/Unity Development/Games/Forest-2D/Library/Bee/
+/Unity Development/Games/Forest-2D/Library/PackageCache/
+/Unity Development/Games/Forest-2D/Library/StateCache/
+/Unity Development/Games/Forest-2D/Library/ShaderCache/
+/Unity Development/Games/Forest-2D/Library/PlayerDataCache/
+/Unity Development/Games/Forest-2D/Library/BurstCache/
+/Unity Development/Games/Forest-2D/ArtifactDB
+
 # JetBrains Rider
 *.sln.iml
 .vs/ProjectSettings.json
