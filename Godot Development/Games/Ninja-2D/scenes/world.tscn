@@ -867,6 +867,7 @@ sources/2 = SubResource("TileSetAtlasSource_omcui")
 [node name="World" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
+y_sort_enabled = true
 tile_set = SubResource("TileSet_ndeua")
 format = 2
 layer_0/name = "ground"
@@ -874,7 +875,9 @@ layer_0/tile_data = PackedInt32Array(0, 720896, 12, 65536, 786432, 12, 131072, 7
 layer_1/name = "floaring"
 layer_1/tile_data = PackedInt32Array(589827, 458753, 10, 655361, 458753, 10, 458752, 458753, 10, 196617, 458753, 10, 65542, 458753, 10, 2, 458753, 10, 0, 458753, 10, 655374, 458753, 10, 196623, 458753, 10, 16, 458753, 10, 393220, 2, 0, 458753, 2, 0, 589832, 2, 0, 393230, 2, 0, 65549, 2, 0, 131079, 2, 0)
 layer_2/name = "trees"
+layer_2/y_sort_enabled = true
+layer_2/z_index = 1
 layer_2/tile_data = PackedInt32Array(393216, 131073, 0, 589828, 131073, 0, 262154, 131073, 0, 65545, 131073, 0, 131076, 131073, 0, 655371, 131073, 0, 327696, 131073, 0, 589840, 131073, 0, 655366, 131073, 0)
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_mjmsg")]
+[node name="CharacterBody2D" parent="TileMap" instance=ExtResource("1_mjmsg")]
 position = Vector2(60, 35)
