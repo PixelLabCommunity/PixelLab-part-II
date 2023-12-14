@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dvq5boong4lx3"]
+[gd_scene load_steps=10 format=3 uid="uid://dvq5boong4lx3"]
 
 [ext_resource type="Texture2D" uid="uid://drpswr8o2u72r" path="res://Asset/Actor/Characters/DarkNinja/SpriteSheet.png" id="1_80l4b"]
 [ext_resource type="Script" path="res://Scripts/CharacterMovement.cs" id="1_guho0"]
@@ -100,6 +100,9 @@ _data = {
 "walkUp": SubResource("Animation_vhkbn")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_40sqf"]
+size = Vector2(14, 4)
+
 [node name="CharacterBody2D" type="CharacterBody2D"]
 z_index = 1
 y_sort_enabled = true
@@ -117,3 +120,7 @@ vframes = 7
 libraries = {
 "": SubResource("AnimationLibrary_0mvtn")
 }
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 6)
+shape = SubResource("RectangleShape2D_40sqf")
