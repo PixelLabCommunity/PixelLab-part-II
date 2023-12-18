@@ -2492,5 +2492,12 @@ layer_3/y_sort_enabled = true
 layer_3/z_index = 1
 layer_3/tile_data = PackedInt32Array(262146, 262145, 8, 393226, 262145, 8, 262172, 262145, 8, 1114137, 262145, 8, 917519, 262145, 8, 1310730, 262145, 8, 917509, 262145, 8, 1245186, 262145, 8, 589858, 262145, 8, 327686, 65537, 14, 131089, 65537, 14, 589845, 65537, 14, 196640, 65537, 14, 1114145, 65537, 14, 983067, 65537, 14, 1048588, 65537, 14, 851975, 65537, 14, 851969, 65537, 14, 524303, 65537, 14)
 
-[node name="CharacterBody2D" parent="TileMap" instance=ExtResource("1_mjmsg")]
+[node name="Player" parent="TileMap" instance=ExtResource("1_mjmsg")]
 position = Vector2(60, 35)
+
+[node name="Camera2D" type="Camera2D" parent="TileMap/Player"]
+limit_left = 0
+limit_top = 0
+limit_right = 650
+limit_bottom = 375
+limit_smoothed = true

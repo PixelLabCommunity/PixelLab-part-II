@@ -103,7 +103,7 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_40sqf"]
 size = Vector2(14, 4)
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
 z_index = 1
 y_sort_enabled = true
 texture_filter = 1
