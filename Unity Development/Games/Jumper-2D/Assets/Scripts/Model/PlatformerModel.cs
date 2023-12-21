@@ -1,3 +1,4 @@
+using Cinemachine;
 using Platformer.Mechanics;
 using UnityEngine;
 
