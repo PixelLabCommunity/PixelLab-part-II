@@ -142,5 +142,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_o4w02")
-animation = &"walkRight"
-frame = 3
+animation = &"walkDown"

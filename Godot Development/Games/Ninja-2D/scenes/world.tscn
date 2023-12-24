@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://fl2tg02xhn0h"]
+[gd_scene load_steps=12 format=3 uid="uid://fl2tg02xhn0h"]
 
 [ext_resource type="PackedScene" uid="uid://dvq5boong4lx3" path="res://player/character_body_2d.tscn" id="1_mjmsg"]
 [ext_resource type="Texture2D" uid="uid://dqwh5f411p8km" path="res://Asset/Backgrounds/Tilesets/TilesetFloor.png" id="2_j7v8q"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cqcqx2lud0anj" path="res://Asset/Backgrounds/Animated/Plant/SpriteSheet16x16.png" id="3_6mf3p"]
 [ext_resource type="Script" path="res://Scripts/Camera2D.cs" id="5_8323y"]
 [ext_resource type="PackedScene" uid="uid://ylkd8x5ylq6j" path="res://animations/enemies/enemySlime1.tscn" id="6_ixv8j"]
+[ext_resource type="Script" path="res://Scripts/enemySlime1.cs" id="7_m7s6b"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cx7p1"]
 texture = ExtResource("2_j7v8q")
@@ -2625,3 +2626,7 @@ Tilemap = NodePath("../..")
 
 [node name="Slime1" parent="TileMap" instance=ExtResource("6_ixv8j")]
 position = Vector2(80, 72)
+script = ExtResource("7_m7s6b")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime1"]
+position = Vector2(56, 0)
