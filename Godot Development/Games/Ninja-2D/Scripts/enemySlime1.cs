@@ -1,62 +1,60 @@
 using Godot;
 
-namespace Ninja2D.Scripts;
-
-public partial class EnemySlime1 : CharacterBody2D
+public partial class enemySlime1 : CharacterBody2D
 {
-	private AnimatedSprite2D _animations;
-	private Vector2 _endPosition;
-	private Vector2 _startPosition;
-	[Export] public Marker2D EndPoint;
-	[Export] public float Limit = 0.5f;
-	[Export] public float Speed = 20;
+    private AnimatedSprite2D Animations;
 
-	public override void _Ready()
-	{
-		var _animations = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
-		string[] mobTypes = _animations.SpriteFrames.GetAnimationNames();
-		_animations.Play(mobTypes[GD.Randi() % mobTypes.Length]);
-		_startPosition = Position;
-		_endPosition = EndPoint.GlobalPosition;
-	}
+    [Export] public Marker2D EndPoint;
 
-	private void ChangeDirection()
-	{
-		(_endPosition, _startPosition) = (_startPosition, _endPosition);
-	}
+    private Vector2 EndPosition;
 
-	private void UpdateVelocity()
-	{
-		var moveDirection = _endPosition - Position;
-		if (moveDirection.Length() < Limit)
-			ChangeDirection();
+    [Export] public float Limit = 0.5f;
 
-		Velocity = moveDirection.Normalized() * Speed;
-	}
+    [Export] public int Speed = 20;
 
-	private void UpdateAnimation()
-	{
-		var verticalAnimation = "";
-		var horizontalAnimation = "";
+    private Vector2 StartPosition;
 
-		if (Velocity.Y > 0)
-			verticalAnimation = "walkDown";
-		else if (Velocity.Y < 0)
-			verticalAnimation = "walkUp";
+    public override void _Ready()
+    {
+        StartPosition = Position;
+        EndPosition = EndPoint.GlobalPosition;
+        Animations = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+    }
 
-		if (Velocity.X > 0)
-			horizontalAnimation = "walkRight";
-		else if (Velocity.X < 0)
-			horizontalAnimation = "walkLeft";
+    private void ChangeDirection()
+    {
+        var tempEnd = EndPosition;
+        EndPosition = StartPosition;
+        StartPosition = tempEnd;
+    }
 
-		var animationString = verticalAnimation != "" ? verticalAnimation : horizontalAnimation;
-		_animations.Play(animationString);
-	}
+    private void UpdateVelocity()
+    {
+        var moveDirection = EndPosition - Position;
+        if (moveDirection.Length() < Limit) ChangeDirection();
 
-	private void _PhysicsProcess()
-	{
-		UpdateVelocity();
-		MoveAndSlide();
-		UpdateAnimation();
-	}
+        Velocity = moveDirection.Normalized() * Speed;
+    }
+
+    private void UpdateAnimation()
+    {
+        var animationString = "";
+
+        if (Velocity.Y > 0)
+            animationString = "walkDown";
+        else if (Velocity.Y < 0) animationString = "walkUp";
+
+        if (Velocity.X > 0)
+            animationString = "walkRight";
+        else if (Velocity.X < 0) animationString = "walkLeft";
+
+        Animations.Play(animationString);
+    }
+
+    public override void _PhysicsProcess(double delta)
+    {
+        UpdateVelocity();
+        MoveAndSlide();
+        UpdateAnimation();
+    }
 }

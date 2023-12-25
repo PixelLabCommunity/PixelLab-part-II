@@ -11,8 +11,13 @@ public partial class EnemySlime2 : CharacterBody2D
 	public override void _Ready()
 	{
 		_startPosition = Position;
-		_endPosition = _startPosition + new Vector2(0, 3 * 16);
+		_endPosition = _startPosition + new Vector2(0, 200);
+
+		GD.Print("Start Position: ", _startPosition);
+		GD.Print("End Position: ", _endPosition);
+		GD.Print("Current Position: ", Position);
 	}
+
 
 	private void UpdateVelocity(float delta)
 	{
