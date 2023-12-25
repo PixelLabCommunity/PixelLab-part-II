@@ -1,6 +1,5 @@
 extends CharacterBody2D
 
-
 @export var speed = 20
 @export var limit = 0.5
 @export var endPoint: Marker2D
@@ -23,27 +22,26 @@ func updateVelocity():
 	var moveDirection = (endPosition - position)
 	if moveDirection.length() < limit:
 		changeDirection()
-		
-	velocity = moveDirection.normalized()*speed
-	
+
+	velocity = moveDirection.normalized() * speed
+
 func updateAnimation():
-	var animationString = "walkUp"
+	var animationString 
+
 	if velocity.y > 0:
 		animationString = "walkDown"
+	elif velocity.y < 0:
+		animationString = "walkUp"
+
 	if velocity.x > 0:
 		animationString = "walkRight"
-	else:
+	elif velocity.x < 0:
 		animationString = "walkLeft"
+
 	animations.play(animationString)
+
 
 func _physics_process(delta):
 	updateVelocity()
 	move_and_slide()
 	updateAnimation()
-
-
-
-
-
-
-
