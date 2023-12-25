@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638380105646646418
-    m_Hash: 1847275552
+      ticks: 638390965683763195
+    m_Hash: 3226255583
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
-m_EditorVersion: 2023.2.3f1 (21747dafc6ee)
+m_EditorVersion: 2023.2.4f1 (accd6d46ced1)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
@@ -273,7 +273,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.2d.aseprite
-    version: 1.0.1
+    version: 1.1.0
   keywords: []
   registry:
     id: main
@@ -4312,8 +4312,10 @@ m_ResolvedPackages:
     - 10.0.1
     - 10.0.2
     - 10.0.3
+    - 10.1.0
     compatible:
     - 10.0.3
+    - 10.1.0
     recommended: 10.0.3
     deprecated: []
   dependencies:
@@ -5117,12 +5119,12 @@ m_ResolvedPackages:
     location of GameObject when painting and erasing"}'
   assetStore:
     productId: 
-- packageId: com.unity.2d.aseprite@1.0.1
+- packageId: com.unity.2d.aseprite@1.1.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 1.1.0
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.aseprite@1.0.1
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.aseprite@1.1.0
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5145,9 +5147,8 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.1.0
     compatible:
-    - 1.0.1
     - 1.1.0
-    recommended: 1.0.1
+    recommended: 1.1.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.sprite
@@ -5197,16 +5198,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638285549780000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html
+  datePublishedTicks: 638366862780000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: f35a0fd1f63d861882dcf1ab563fa2e23f8566ae
+    revision: 1b0a451670ab3ee197ea415f7941f9c2a81c20fc
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5216,8 +5217,10 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Fixed an issue where the background
-    importer would act on files that were not Aseprite files."}'
+  upmReserved: '{"changelog":"### Added\n- Added a mosaic padding option to the importer
+    editor.\n- Added Generate Physics Shape option to the importer editor.\n\n###
+    Changed\n- Fixed an issue where the background importer would act on files that
+    were not Aseprite files."}'
   assetStore:
     productId: 
 - packageId: com.unity.searcher@4.9.2
@@ -5468,9 +5471,11 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 9.0.2
+    - 9.0.3
     compatible:
     - 9.0.2
-    recommended: 9.0.2
+    - 9.0.3
+    recommended: 9.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.sprite

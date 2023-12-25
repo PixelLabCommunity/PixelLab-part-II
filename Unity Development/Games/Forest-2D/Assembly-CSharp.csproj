@@ -102,7 +102,7 @@
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_Properties.cginc" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
     <None Include="Library\PackageCache\com.unity.modules.director@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.2d.aseprite@1.0.1\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.aseprite@1.1.0\package.json" />
     <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\package.json" />
@@ -122,13 +122,13 @@
     <None Include="Library\PackageCache\com.unity.burst@1.8.11\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
