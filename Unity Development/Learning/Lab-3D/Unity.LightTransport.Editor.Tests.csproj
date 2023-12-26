@@ -48,13 +48,13 @@
      <Folder Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.0\Tests\Editor" />
      <None Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.0\Tests\Editor\UnifiedRayTracing\TraceRays.hlsl" />
      <Reference Include="UnityEngine">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.3f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
