@@ -2633,6 +2633,24 @@ EndPoint = NodePath("Marker2D")
 [node name="Marker2D" type="Marker2D" parent="TileMap/Slime1"]
 position = Vector2(64, 8)
 
+[node name="Slime5" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
+position = Vector2(256, 208)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime5"]
+position = Vector2(64, 0)
+scale = Vector2(1.00712, 1)
+
+[node name="Slime6" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
+position = Vector2(464, 264)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime6"]
+position = Vector2(40, 56)
+scale = Vector2(1.00712, 1)
+
 [node name="Slime2" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
 position = Vector2(128, 96)
 script = ExtResource("7_j7loh")
@@ -2642,9 +2660,25 @@ EndPoint = NodePath("Marker2D2")
 position = Vector2(24, 32)
 
 [node name="Slime3" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
-position = Vector2(96, 120)
+position = Vector2(24, 184)
 script = ExtResource("7_j7loh")
 EndPoint = NodePath("Marker2D3")
 
 [node name="Marker2D3" type="Marker2D" parent="TileMap/Slime3"]
-position = Vector2(24, 16)
+position = Vector2(48, 32)
+
+[node name="Slime4" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
+position = Vector2(320, 56)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime4"]
+position = Vector2(0, 48)
+
+[node name="Slime7" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
+position = Vector2(448, 136)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime7"]
+position = Vector2(56, 24)
