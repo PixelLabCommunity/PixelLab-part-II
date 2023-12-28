@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://di1wddq8ldkmv"]
+[gd_scene load_steps=20 format=3 uid="uid://di1wddq8ldkmv"]
 
 [ext_resource type="Texture2D" uid="uid://4y4oeqm0tnmc" path="res://Asset/Actor/Monsters/Slime2/Slime2.png" id="1_pacbx"]
 
@@ -137,9 +137,17 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f6uh6"]
+radius = 7.0
+
 [node name="Slime2" type="CharacterBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_o4w02")
 animation = &"walkDown"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -4)
+scale = Vector2(1.09888, 0.318547)
+shape = SubResource("CapsuleShape2D_f6uh6")

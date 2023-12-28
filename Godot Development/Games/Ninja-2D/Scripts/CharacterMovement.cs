@@ -44,4 +44,19 @@ public partial class CharacterMovement : CharacterBody2D
 		Velocity = velocity;
 		MoveAndSlide();
 	}
+
+	private void HandleCollision()
+	{
+		for (var i = 0; i < GetSlideCollisionCount(); i++)
+			if (GetSlideCollision(i) is { } collision)
+				if (collision.GetCollider() is Node2D collider)
+					GD.Print(collider.Name);
+	}
+
+	// Assuming you want to call handleCollision during the PhysicsProcess
+	private void _Process(float delta)
+	{
+		base._Process(delta);
+		HandleCollision();
+	}
 }
