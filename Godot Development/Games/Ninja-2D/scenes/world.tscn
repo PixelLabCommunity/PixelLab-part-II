@@ -2578,7 +2578,8 @@ texture = ExtResource("3_6mf3p")
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.09191, -4.59101, 5.20903, -4.59101, 6.26849, 0.882886, 7.15137, 8, -7.15138, 8, -6.00362, 1.23604)
 
 [sub_resource type="TileSet" id="TileSet_ndeua"]
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 3
+physics_layer_0/collision_mask = 3
 terrain_set_0/mode = 1
 terrain_set_0/terrain_0/name = "sand"
 terrain_set_0/terrain_0/color = Color(0.462745, 0.27451, 0.168627, 1)

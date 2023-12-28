@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dvq5boong4lx3"]
+[gd_scene load_steps=11 format=3 uid="uid://dvq5boong4lx3"]
 
 [ext_resource type="Texture2D" uid="uid://drpswr8o2u72r" path="res://Asset/Actor/Characters/DarkNinja/SpriteSheet.png" id="1_80l4b"]
 [ext_resource type="Script" path="res://Scripts/CharacterMovement.cs" id="1_guho0"]
@@ -103,11 +103,16 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_40sqf"]
 size = Vector2(14, 4)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qk14p"]
+size = Vector2(20, 14)
+
 [node name="Player" type="CharacterBody2D"]
 z_index = 1
 y_sort_enabled = true
 texture_filter = 1
 disable_mode = 1
+collision_layer = 3
+collision_mask = 3
 motion_mode = 1
 script = ExtResource("1_guho0")
 
@@ -124,3 +129,14 @@ libraries = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 6)
 shape = SubResource("RectangleShape2D_40sqf")
+
+[node name="hurtBox" type="Area2D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurtBox"]
+position = Vector2(0, 1)
+scale = Vector2(0.68809, 0.92434)
+shape = SubResource("RectangleShape2D_qk14p")
+
+[connection signal="area_entered" from="hurtBox" to="." method="_on_hurt_box_area_entered"]
