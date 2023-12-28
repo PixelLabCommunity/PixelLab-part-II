@@ -52,7 +52,7 @@ public partial class CharacterMovement : CharacterBody2D
 	}
 
 	// Ensure that this method is inside the class definition
-	private static void OnHurtBoxAreaEntered(Node area)
+	private void _on_hurt_box_area_entered(Node area)
 	{
 		if (area.Name == "hitBox") GD.Print(area.GetParent().Name);
 	}

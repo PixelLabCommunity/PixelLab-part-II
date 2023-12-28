@@ -2626,14 +2626,6 @@ limit_smoothed = true
 script = ExtResource("5_8323y")
 Tilemap = NodePath("../..")
 
-[node name="Slime1" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
-position = Vector2(80, 72)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D")
-
-[node name="Marker2D" type="Marker2D" parent="TileMap/Slime1"]
-position = Vector2(64, 8)
-
 [node name="Slime5" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
 position = Vector2(256, 208)
 script = ExtResource("7_j7loh")
@@ -2683,3 +2675,11 @@ EndPoint = NodePath("Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="TileMap/Slime7"]
 position = Vector2(56, 24)
+
+[node name="Slime1" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
+position = Vector2(80, 72)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime1"]
+position = Vector2(64, 8)
