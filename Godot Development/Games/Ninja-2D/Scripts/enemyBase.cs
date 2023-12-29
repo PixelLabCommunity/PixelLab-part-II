@@ -2,7 +2,7 @@ using Godot;
 
 public partial class enemyBase : CharacterBody2D
 {
-	private AnimatedSprite2D _animations;
+	private AnimationPlayer _animations;
 	private Vector2 _endPosition;
 	private Vector2 _startPosition;
 
@@ -16,7 +16,7 @@ public partial class enemyBase : CharacterBody2D
 	{
 		_startPosition = Position;
 		_endPosition = EndPoint.GlobalPosition;
-		_animations = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
+		_animations = GetNode<AnimationPlayer>("AnimationSlime1");
 	}
 
 	private void ChangeDirection()

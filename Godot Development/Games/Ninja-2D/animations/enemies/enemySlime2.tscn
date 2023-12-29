@@ -1,6 +1,7 @@
-[gd_scene load_steps=20 format=3 uid="uid://di1wddq8ldkmv"]
+[gd_scene load_steps=21 format=3 uid="uid://di1wddq8ldkmv"]
 
 [ext_resource type="Texture2D" uid="uid://4y4oeqm0tnmc" path="res://Asset/Actor/Monsters/Slime2/Slime2.png" id="1_pacbx"]
+[ext_resource type="Script" path="res://Scripts/enemyBase.cs" id="1_q4e7h"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ufjjd"]
 atlas = ExtResource("1_pacbx")
@@ -141,25 +142,34 @@ animations = [{
 radius = 7.0
 
 [node name="Slime2" type="CharacterBody2D"]
-z_index = 1
+y_sort_enabled = true
 collision_layer = 2
 collision_mask = 2
+script = ExtResource("1_q4e7h")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 1
+y_sort_enabled = true
 position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_o4w02")
-animation = &"walkDown"
+animation = &"walkLeft"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+y_sort_enabled = true
 position = Vector2(0, -4)
 scale = Vector2(1.09888, 0.318547)
 shape = SubResource("CapsuleShape2D_f6uh6")
 
 [node name="hitBox" type="Area2D" parent="."]
+z_index = 1
+y_sort_enabled = true
 collision_layer = 2
 collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitBox"]
+z_index = 1
+y_sort_enabled = true
 position = Vector2(0, -4)
 scale = Vector2(1.09888, 0.318547)
 shape = SubResource("CapsuleShape2D_f6uh6")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://fl2tg02xhn0h"]
+[gd_scene load_steps=14 format=3 uid="uid://fl2tg02xhn0h"]
 
 [ext_resource type="PackedScene" uid="uid://dvq5boong4lx3" path="res://player/character_body_2d.tscn" id="1_mjmsg"]
 [ext_resource type="Texture2D" uid="uid://dqwh5f411p8km" path="res://Asset/Backgrounds/Tilesets/TilesetFloor.png" id="2_j7v8q"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://ylkd8x5ylq6j" path="res://animations/enemies/enemySlime1.tscn" id="6_ixv8j"]
 [ext_resource type="Script" path="res://Scripts/enemyBase.cs" id="7_j7loh"]
 [ext_resource type="PackedScene" uid="uid://di1wddq8ldkmv" path="res://animations/enemies/enemySlime2.tscn" id="8_v8j0i"]
+[ext_resource type="Script" path="res://Scripts/enemySlime2.cs" id="9_wvlwd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cx7p1"]
 texture = ExtResource("2_j7v8q")
@@ -2626,60 +2627,26 @@ limit_smoothed = true
 script = ExtResource("5_8323y")
 Tilemap = NodePath("../..")
 
-[node name="Slime5" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
-position = Vector2(256, 208)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D")
-
-[node name="Marker2D" type="Marker2D" parent="TileMap/Slime5"]
-position = Vector2(64, 0)
-scale = Vector2(1.00712, 1)
-
-[node name="Slime6" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
-position = Vector2(464, 264)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D")
-
-[node name="Marker2D" type="Marker2D" parent="TileMap/Slime6"]
-position = Vector2(40, 56)
-scale = Vector2(1.00712, 1)
-
-[node name="Slime2" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
-position = Vector2(128, 96)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D2")
-
-[node name="Marker2D2" type="Marker2D" parent="TileMap/Slime2"]
-position = Vector2(24, 32)
-
-[node name="Slime3" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
-position = Vector2(24, 184)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D3")
-
-[node name="Marker2D3" type="Marker2D" parent="TileMap/Slime3"]
-position = Vector2(48, 32)
-
-[node name="Slime4" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
-position = Vector2(320, 56)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D")
-
-[node name="Marker2D" type="Marker2D" parent="TileMap/Slime4"]
-position = Vector2(0, 48)
-
-[node name="Slime7" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
-position = Vector2(448, 136)
-script = ExtResource("7_j7loh")
-EndPoint = NodePath("Marker2D")
-
-[node name="Marker2D" type="Marker2D" parent="TileMap/Slime7"]
-position = Vector2(56, 24)
-
 [node name="Slime1" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
-position = Vector2(80, 72)
+position = Vector2(48, 64)
 script = ExtResource("7_j7loh")
 EndPoint = NodePath("Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="TileMap/Slime1"]
-position = Vector2(64, 8)
+position = Vector2(64, 0)
+
+[node name="Slime1-1" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("6_ixv8j")]
+position = Vector2(216, 48)
+script = ExtResource("7_j7loh")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime1-1"]
+position = Vector2(0, 48)
+
+[node name="Slime2" parent="TileMap" node_paths=PackedStringArray("EndPoint") instance=ExtResource("8_v8j0i")]
+position = Vector2(112, 128)
+script = ExtResource("9_wvlwd")
+EndPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/Slime2"]
+position = Vector2(64, 0)

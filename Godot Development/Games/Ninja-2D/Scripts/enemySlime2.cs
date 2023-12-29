@@ -1,33 +1,58 @@
 using Godot;
 
-namespace Ninja2D.Scripts;
-
-public partial class EnemySlime2 : CharacterBody2D
+public partial class enemySlime2 : CharacterBody2D
 {
+	private AnimatedSprite2D _animations;
 	private Vector2 _endPosition;
-	private float _speed = 50.0f; // Adjust the speed as needed
 	private Vector2 _startPosition;
+
+	[Export] public Marker2D EndPoint;
+
+	[Export] public float Limit = 0.5f;
+
+	[Export] public int Speed = 20;
 
 	public override void _Ready()
 	{
 		_startPosition = Position;
-		_endPosition = _startPosition + new Vector2(0, 200);
-
-		GD.Print("Start Position: ", _startPosition);
-		GD.Print("End Position: ", _endPosition);
-		GD.Print("Current Position: ", Position);
+		_endPosition = EndPoint.GlobalPosition;
+		_animations = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 	}
 
-
-	private void UpdateVelocity(float delta)
+	private void ChangeDirection()
 	{
-		var moveDirection = (_endPosition - Position).Normalized();
-		Velocity = moveDirection * _speed;
+		(_endPosition, _startPosition) = (_startPosition, _endPosition);
 	}
 
-	private void _PhysicsProcess(float delta)
+	private void UpdateVelocity()
 	{
-		UpdateVelocity(delta);
+		var moveDirection = _endPosition - Position;
+		if (moveDirection.Length() < Limit) ChangeDirection();
+
+		Velocity = moveDirection.Normalized() * Speed;
+	}
+
+	private void UpdateAnimation()
+	{
+		var animationString = Velocity.X switch
+		{
+			> 0 => "walkRight",
+			< 0 => "walkLeft",
+			_ => Velocity.Y switch
+			{
+				> 0 => "walkDown",
+				< 0 => "walkUp",
+				_ => ""
+			}
+		};
+
+		_animations.Play(animationString);
+	}
+
+	public override void _PhysicsProcess(double delta)
+	{
+		UpdateVelocity();
 		MoveAndSlide();
+		UpdateAnimation();
 	}
 }

@@ -129,9 +129,12 @@ position = Vector2(0, 6)
 shape = SubResource("RectangleShape2D_40sqf")
 
 [node name="hurtBox" type="Area2D" parent="."]
+z_as_relative = false
 collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hurtBox"]
+visible = false
+z_as_relative = false
 position = Vector2(0, 1)
 scale = Vector2(0.68809, 0.92434)
 shape = SubResource("RectangleShape2D_qk14p")
