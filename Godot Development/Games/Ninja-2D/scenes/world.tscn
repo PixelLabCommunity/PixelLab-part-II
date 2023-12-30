@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://fl2tg02xhn0h"]
+[gd_scene load_steps=15 format=3 uid="uid://fl2tg02xhn0h"]
 
 [ext_resource type="PackedScene" uid="uid://dvq5boong4lx3" path="res://player/character_body_2d.tscn" id="1_mjmsg"]
 [ext_resource type="Texture2D" uid="uid://dqwh5f411p8km" path="res://Asset/Backgrounds/Tilesets/TilesetFloor.png" id="2_j7v8q"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" path="res://Scripts/enemyBase.cs" id="7_j7loh"]
 [ext_resource type="PackedScene" uid="uid://di1wddq8ldkmv" path="res://animations/enemies/enemySlime2.tscn" id="8_v8j0i"]
 [ext_resource type="Script" path="res://Scripts/enemySlime2.cs" id="9_wvlwd"]
+[ext_resource type="PackedScene" uid="uid://cc65b7dcjo5m2" path="res://scenes/gui/hearts_container.tscn" id="10_85uti"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cx7p1"]
 texture = ExtResource("2_j7v8q")
@@ -2650,3 +2651,13 @@ EndPoint = NodePath("Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="TileMap/Slime2"]
 position = Vector2(64, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="heartsContainer" parent="CanvasLayer" instance=ExtResource("10_85uti")]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -52.0
+offset_right = 0.0
+grow_horizontal = 0
