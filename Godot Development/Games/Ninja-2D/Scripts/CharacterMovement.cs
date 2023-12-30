@@ -5,11 +5,15 @@ namespace Ninja2D.Scripts;
 public partial class CharacterMovement : CharacterBody2D
 {
 	private const float Speed = 35.0f;
+	private const int StartHealth = 3;
+	private int _currentHealth = StartHealth;
+	private int _damageBase = 1;
 	private AnimationPlayer _playerAnimation;
 
 	public override void _Ready()
 	{
 		_playerAnimation = GetNode<AnimationPlayer>("AnimationPlayer");
+		GD.Print($"Your Character Current health is: {_currentHealth}");
 	}
 
 	public override void _PhysicsProcess(double delta)
@@ -22,12 +26,21 @@ public partial class CharacterMovement : CharacterBody2D
 			velocity.X = moveDirection.X * Speed;
 			velocity.Y = moveDirection.Y * Speed;
 			var moveAnimation = "Down";
-			if (velocity.X < 0)
-				moveAnimation = "Left";
-			else if (velocity.X > 0)
-				moveAnimation = "Right";
-			else if (velocity.Y < 0)
-				moveAnimation = "Up";
+			switch (velocity.X)
+			{
+				case < 0:
+					moveAnimation = "Left";
+					break;
+				case > 0:
+					moveAnimation = "Right";
+					break;
+				default:
+				{
+					if (velocity.Y < 0)
+						moveAnimation = "Up";
+					break;
+				}
+			}
 
 			_playerAnimation.Play("walk" + moveAnimation);
 		}
@@ -54,6 +67,12 @@ public partial class CharacterMovement : CharacterBody2D
 	// Ensure that this method is inside the class definition
 	private void _on_hurt_box_area_entered(Node area)
 	{
-		if (area.Name == "hitBox") GD.Print(area.GetParent().Name);
+		if (area.Name == "hitBox")
+		{
+			_currentHealth -= _damageBase;
+			if (_currentHealth < 0) _currentHealth = StartHealth;
+		}
+
+		GD.Print($"Your Character Current health is: {_currentHealth}");
 	}
 }
