@@ -11,9 +11,8 @@ public partial class heart_gui : Panel
         // Replace with function body.
     }
 
-
-    private void Update(bool whole)
+    public void Update(bool whole)
     {
-        if (whole) _sprite.Frame = 0;
+        _sprite.Frame = whole ? 0 : 4;
     }
 }
