@@ -1,6 +1,6 @@
 [gd_scene load_steps=16 format=3 uid="uid://fl2tg02xhn0h"]
 
-[ext_resource type="Script" path="res://Scripts/world.gd" id="1_lys43"]
+[ext_resource type="Script" path="res://Scripts/world.cs" id="1_hpm6v"]
 [ext_resource type="PackedScene" uid="uid://dvq5boong4lx3" path="res://player/character_body_2d.tscn" id="1_mjmsg"]
 [ext_resource type="Texture2D" uid="uid://dqwh5f411p8km" path="res://Asset/Backgrounds/Tilesets/TilesetFloor.png" id="2_j7v8q"]
 [ext_resource type="Texture2D" uid="uid://c7ppxi36wpw32" path="res://Asset/Backgrounds/Tilesets/TilesetNature.png" id="2_kjxsa"]
@@ -2597,7 +2597,7 @@ sources/1 = SubResource("TileSetAtlasSource_jon51")
 sources/2 = SubResource("TileSetAtlasSource_omcui")
 
 [node name="World" type="Node2D"]
-script = ExtResource("1_lys43")
+script = ExtResource("1_hpm6v")
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
