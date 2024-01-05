@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Platformer.Gameplay;
+﻿using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
 
@@ -12,14 +10,12 @@ namespace Platformer.Mechanics
     /// </summary>
     public class DeathZone : MonoBehaviour
     {
-        void OnTriggerEnter2D(Collider2D collider)
+        private void OnTriggerEnter2D(Collider2D collider2D)
         {
-            var p = collider.gameObject.GetComponent<PlayerController>();
-            if (p != null)
-            {
-                var ev = Schedule<PlayerEnteredDeathZone>();
-                ev.deathzone = this;
-            }
+            var playerController  = collider2D.gameObject.GetComponent<PlayerController>();
+            if (playerController == null) return;
+            var ev = Schedule<PlayerEnteredDeathZone>();
+            ev.deathzone = this;
         }
     }
 }
