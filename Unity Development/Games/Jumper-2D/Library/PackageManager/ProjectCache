@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638387884763636642
-    m_Hash: 188392766
+      ticks: 638400793616192855
+    m_Hash: 596306233
   m_LockFileStatus:
     m_FilePath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Jumper-2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638387884763677255
-    m_Hash: 3308529871
+      ticks: 638400793616218298
+    m_Hash: 3317468438
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,147 @@ m_LocalPackages:
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Jumper-2D/Packages
 m_EditorVersion: 2023.2.4f1 (accd6d46ced1)
 m_ResolvedPackages:
+- packageId: com.unity.adaptiveperformance@5.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.2
+  source: 1
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Jumper-2D\Library\PackageCache\com.unity.adaptiveperformance@5.0.2
+  assetPath: Packages/com.unity.adaptiveperformance
+  name: com.unity.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'The Adaptive Performance package provides an API to get feedback
+    about the thermal and power state of mobile devices, enabling applications to
+    make performance-relevant adaptions at runtime.
+
+
+    For instruction on how
+    to use samples, please read the documentation.
+
+
+    By installing this package,
+    you agree to the terms and conditions of the Unity End User License Agreement
+    found under "View licenses" above.'
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    compatible:
+    - 5.0.1
+    - 5.0.2
+    recommended: 5.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - indexer
+  - scaler
+  - vrr
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638290079540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
+    revision: d0a859ff72cb2feff9652eda68ebb265cc9f63a1
+    path: 
+  unityLifecycle:
+    version: 5.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Removed\n* Meta file which should not be there
+    since the folder is empty.\n\n### Fixed\n- Fixed asset save decision which causes
+    the editor to save profiles constantly while the Adaptive Performance settings
+    window is open."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.cinemachine@2.9.7
   testable: 0
   isDirectDependency: 1
@@ -6064,6 +6205,76 @@ m_ResolvedPackages:
     editor.\n- Added Generate Physics Shape option to the importer editor.\n\n###
     Changed\n- Fixed an issue where the background importer would act on files that
     were not Aseprite files."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Jumper-2D\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
   assetStore:
     productId: 
 - packageId: com.unity.searcher@4.9.2

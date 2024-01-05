@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gameplay\PlayerSpawn.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\Jiggler.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredVictoryZone.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\EmitParticlesOnLand.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\UI\MainUIController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredDeathZone.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealthIsZero.cs" />
@@ -60,29 +64,59 @@
     <Compile Include="Assets\Scripts\Model\PlatformerModel.cs" />
     <Compile Include="Assets\Scripts\View\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.Event.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\Mechanics\EnemyController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerTokenCollision.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Mechanics\VictoryZone.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerEnemyCollision.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Health.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\Mechanics\KinematicObject.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerJumpPad.cs" />
     <Compile Include="Assets\Scripts\Core\HeapQueue.cs" />
     <Compile Include="Assets\Scripts\Mechanics\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerStopJump.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PlayAudioClip.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerSpeedPad.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Mechanics\AnimationController.cs" />
     <Compile Include="Assets\Scripts\Core\Simulation.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PatrolPath.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\UI\MetaGameController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\EnablePlayerInput.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerJumped.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Mechanics\TokenController.cs" />
     <Compile Include="Assets\Scripts\Mechanics\TokenInstance.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\SimpleTrigger.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Backend\TemplateEditorDetection.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Mechanics\GameController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerLanded.cs" />
     <Compile Include="Assets\Scripts\View\AnimatedTile.cs" />
@@ -100,8 +134,10 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Upload_Old.uxml" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
     <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Styles.uss" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\README.txt" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\InstallWebGL_Dark.uss" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\package.json" />
@@ -110,16 +146,22 @@
     <None Include="Library\PackageCache\com.unity.ext.nunit@2.0.5\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\NotLoggedIn.uxml" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Error.uxml" />
     <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
     <None Include="Library\PackageCache\com.unity.timeline@1.8.6\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.accessibility@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\ValidationConfig.json" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\package.json" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\ThirdPartyNotice.txt" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Success.uss" />
     <None Include="Library\PackageCache\com.unity.visualscripting@1.8.0\package.json" />
@@ -145,6 +187,7 @@
     <None Include="Library\PackageCache\com.unity.ide.rider@3.0.27\package.json" />
     <None Include="Library\PackageCache\com.unity.searcher@4.9.2\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Library\PackageCache\com.unity.shadergraph@16.0.4\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.test-framework@1.3.9\package.json" />
     <None Include="Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\package.json" />
@@ -162,6 +205,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\ValidationExceptions.json" />
     <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -194,6 +238,7 @@
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Uploading.uss" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\NoBuild_Dark.uss" />
     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
+    <None Include="Library\PackageCache\com.unity.profiling.core@1.0.2\package.json" />
     <None Include="Library\PackageCache\com.unity.learn.iet-framework@3.1.3\package.json" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_Properties.cginc" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\NotLoggedIn.uss" />
@@ -213,6 +258,7 @@
     <None Include="Library\PackageCache\com.unity.2d.spriteshape@10.0.2\package.json" />
     <None Include="Library\PackageCache\com.unity.mathematics@1.2.6\ValidationExceptions.json" />
     <None Include="Assets\PlatformerMicrogame_README.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Upload_Dark.uss" />
     <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.animation@10.0.3\package.json" />
@@ -226,11 +272,13 @@
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\Styles_Dark.uss" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5.0.2\package.json" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Library\PackageCache\com.unity.connect.share@4.2.3\UI\NoBuild.uss" />
     <None Include="Library\PackageCache\com.unity.burst@1.8.11\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -974,6 +1022,10 @@
       <Project>{b579291a-da6b-9ba7-e683-a0abd82e0005}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.csproj">
+      <Project>{301cdeb0-a02a-7085-7fd0-4c44764d5c5b}</Project>
+      <Name>Unity.AdaptivePerformance</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{adb3a77d-e339-9a6d-6883-5f1723338b49}</Project>
       <Name>Unity.2D.Common.Editor</Name>
@@ -1050,6 +1102,10 @@
       <Project>{6ff46124-04ea-6a17-4139-dfe68c8fba0a}</Project>
       <Name>Unity.2D.Aseprite.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Extension.csproj">
+      <Project>{28cbbc6c-a477-2e86-eabb-cd5fc2bd5604}</Project>
+      <Name>Unity.AdaptivePerformance.Simulator.Extension</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{c077186e-3ed1-1571-faf5-455508172bcc}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -1058,6 +1114,10 @@
       <Project>{4c70e4e8-d282-713a-a03d-f7c52a6e0fad}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Profiler.Editor.csproj">
+      <Project>{dd245987-d815-73e8-d6c4-ac6426872048}</Project>
+      <Name>Unity.AdaptivePerformance.Profiler.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
       <Project>{ba095d89-18a8-21ae-13f6-4a2edc70835e}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
@@ -1065,6 +1125,10 @@
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
       <Project>{71f2766a-e189-bc1d-52aa-4a73e5005871}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
+      <Project>{3fc23661-eab3-d88c-7815-bdc2e6a7d6c0}</Project>
+      <Name>Unity.AdaptivePerformance.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.csproj">
       <Project>{ea737f9f-3964-e0dc-6819-a6c7e48d761b}</Project>
@@ -1134,6 +1198,10 @@
       <Project>{c54e66f7-80b3-eaf1-1ec3-958907dc170f}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Profiling.Core.csproj">
+      <Project>{d46ca874-0c96-e02a-63e5-6cdef9c270c2}</Project>
+      <Name>Unity.Profiling.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{8921a4f6-954f-5390-9096-4bd2104cd66b}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
@@ -1141,6 +1209,10 @@
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{6beedc6e-0f7b-d6de-c1e8-20399964ce53}</Project>
       <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Editor.csproj">
+      <Project>{c0bc3801-ccd8-6c3e-8596-1e80c40ad23f}</Project>
+      <Name>Unity.AdaptivePerformance.Simulator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Platformer.Tutorials.csproj">
       <Project>{48d28195-4285-f3df-5429-1b16f045e500}</Project>
@@ -1189,6 +1261,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
       <Project>{2698fb80-243c-9bcf-6a02-b022c0765c88}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AdaptivePerformance.UI.Editor.csproj">
+      <Project>{0e005e05-33bd-6887-0377-9d193fe45828}</Project>
+      <Name>Unity.AdaptivePerformance.UI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{f9b1151f-82f5-0d30-1eb9-4dcda4560a90}</Project>
