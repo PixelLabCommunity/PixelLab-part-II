@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Platformer.Mechanics
@@ -19,6 +20,7 @@ namespace Platformer.Mechanics
         float nextFrameTime = 0;
 
         [ContextMenu("Find All Tokens")]
+        [Obsolete("Obsolete")]
         void FindAllTokensInScene()
         {
             tokens = UnityEngine.Object.FindObjectsOfType<TokenInstance>();
