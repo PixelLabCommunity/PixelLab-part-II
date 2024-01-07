@@ -41,35 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Image" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Toggle" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Button" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\ScrollBar" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Graphic" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\TextEditor" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Slider" />
-     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\UnityEngine.UI.Tests.asmdef" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\InputField" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\EventSystem\InputModuleTests" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Canvas" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Dropdown" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\MaskClipping" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\ScrollRect" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\EventSystem" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Layout" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\LayoutGroup" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\Util" />
-     <Folder Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\NestedLayout" />
-     <Reference Include="UnityEngine">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.CoreModule">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor">
-     <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
-     </Reference>
+    <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Tests\Runtime\UGUI\UnityEngine.UI.Tests.asmdef" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
