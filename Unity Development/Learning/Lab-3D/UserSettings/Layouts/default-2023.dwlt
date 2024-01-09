@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -321,8 +321,8 @@ MonoBehaviour:
     y: 0
     width: 373.33325
     height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
+    y: 558.6667
     width: 909.6667
     height: 419
   m_SerializedDataModeController:
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
+    y: 72.66667
     width: 910.3333
     height: 465
   m_SerializedDataModeController:
@@ -1118,9 +1118,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.5505284, y: 3.9489603, z: -1.2964003}
+    m_Target: {x: -4.514651, y: 6.4659925, z: -5.8831983}
     speed: 2
-    m_Value: {x: -1.5505284, y: 3.9489603, z: -1.2964003}
+    m_Value: {x: -4.514651, y: 6.4659925, z: -5.8831983}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1166,9 +1166,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19041272, y: -0.25175643, z: 0.050594732, w: 0.94756407}
+    m_Target: {x: 0.15466711, y: 0.019082064, z: -0.0029662442, w: 0.9878416}
     speed: 2
-    m_Value: {x: -0.19041272, y: 0.25175643, z: -0.050594732, w: -0.94756407}
+    m_Value: {x: 0.15465738, y: 0.019080862, z: -0.0029660575, w: 0.98777944}
   m_Size:
     m_Target: 1.2247449
     speed: 2
@@ -1260,8 +1260,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 912.3333
-    y: 19
+    x: 911.3334
+    y: 72.66667
     width: 420.00006
     height: 465
   m_SerializedDataModeController:
@@ -1278,8 +1278,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 36a40000
+      m_LastClickedID: 42038
       m_ExpandedIDs: eafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1362,8 +1362,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 911.6667
-    y: 19
+    x: 910.6667
+    y: 558.6667
     width: 420.6667
     height: 419
   m_SerializedDataModeController:
@@ -1388,7 +1388,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1398,16 +1398,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Game Development\PixelLab-part-II\Unity Development\Learning\Lab-3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06a50000
-    m_LastClickedID: 42246
-    m_ExpandedIDs: 0000000094a4000096a4000098a40000
+    m_SelectedIDs: 94a40000
+    m_LastClickedID: 42132
+    m_ExpandedIDs: 0000000094a4000096a4000098a4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1482,7 +1482,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1490,7 +1490,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 57}
+    m_ScrollPosition: {x: 0, y: 21}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 143
@@ -1515,8 +1515,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1334.3334
-    y: 19
+    x: 1333.3334
+    y: 72.66667
     width: 372.33325
     height: 905
   m_SerializedDataModeController:
