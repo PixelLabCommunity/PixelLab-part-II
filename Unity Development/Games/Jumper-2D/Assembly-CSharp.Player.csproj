@@ -770,13 +770,13 @@
       <Project>{5a5a449c-0c4c-8880-83ce-077da2a65a85}</Project>
       <Name>Unity.2D.Animation.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{a014e4b3-daad-d725-f273-0142e6a41409}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Profiling.Core.Player.csproj">
       <Project>{eeaf9140-7a55-51a9-3a90-9ce53e2cd83b}</Project>
       <Name>Unity.Profiling.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{a014e4b3-daad-d725-f273-0142e6a41409}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{bba7f318-e7b2-0809-0405-b7f217a2d9a4}</Project>

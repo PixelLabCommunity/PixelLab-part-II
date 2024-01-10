@@ -1006,13 +1006,13 @@
       <Project>{81583b1c-4575-1095-5c23-46f20c90292f}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{07cdc912-ad26-6bd5-3ba9-01b2eaf11d0a}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj">
       <Project>{450f17b1-f640-8222-8eb7-471b44f8c7a2}</Project>
       <Name>Unity.RenderPipelines.Core.Editor.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{07cdc912-ad26-6bd5-3ba9-01b2eaf11d0a}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
       <Project>{f42a2a06-a9db-7855-351f-11ee62413e1f}</Project>
@@ -1042,17 +1042,17 @@
       <Project>{dd245987-d815-73e8-d6c4-ac6426872048}</Project>
       <Name>Unity.AdaptivePerformance.Profiler.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{ba095d89-18a8-21ae-13f6-4a2edc70835e}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
+      <Project>{3fc23661-eab3-d88c-7815-bdc2e6a7d6c0}</Project>
+      <Name>Unity.AdaptivePerformance.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
       <Project>{71f2766a-e189-bc1d-52aa-4a73e5005871}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
-      <Project>{3fc23661-eab3-d88c-7815-bdc2e6a7d6c0}</Project>
-      <Name>Unity.AdaptivePerformance.Editor</Name>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{ba095d89-18a8-21ae-13f6-4a2edc70835e}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.csproj">
       <Project>{ea737f9f-3964-e0dc-6819-a6c7e48d761b}</Project>
@@ -1102,13 +1102,9 @@
       <Project>{b0e9024f-281b-71db-a146-7bc63d32f9dc}</Project>
       <Name>Unity.Collections.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{2c6b1a49-70e7-9628-d5df-1054c91d1cfd}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{3513f9a9-671c-2595-194a-3ae0e78564ed}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    <ProjectReference Include="Unity.Profiling.Core.csproj">
+      <Project>{d46ca874-0c96-e02a-63e5-6cdef9c270c2}</Project>
+      <Name>Unity.Profiling.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{7b422ec6-dec5-0da8-53f4-83abaacb4b3f}</Project>
@@ -1118,13 +1114,17 @@
       <Project>{7a06b447-f0ea-8e9b-e8dc-d0bc4369cfa9}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{2c6b1a49-70e7-9628-d5df-1054c91d1cfd}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{3513f9a9-671c-2595-194a-3ae0e78564ed}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{c54e66f7-80b3-eaf1-1ec3-958907dc170f}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Profiling.Core.csproj">
-      <Project>{d46ca874-0c96-e02a-63e5-6cdef9c270c2}</Project>
-      <Name>Unity.Profiling.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{8921a4f6-954f-5390-9096-4bd2104cd66b}</Project>
