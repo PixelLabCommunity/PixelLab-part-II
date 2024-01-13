@@ -3,20 +3,13 @@ using UnityEngine.Events;
 
 public class SimpleTrigger : MonoBehaviour
 {
+    [SerializeField] private Rigidbody2D triggerBody;
+    [SerializeField] private UnityEvent onTriggerEnter;
 
-    public Rigidbody2D triggerBody; 
-    public UnityEvent onTriggerEnter;
-
-
-    void OnTriggerEnter2D(Collider2D other){
-        //do not trigger if there's no trigger target object
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         if (triggerBody == null) return;
-
-        //only trigger if the triggerBody matches
         var hitRb = other.attachedRigidbody;
-        if (hitRb == triggerBody){
-            onTriggerEnter.Invoke();
-        }
+        if (hitRb == triggerBody) onTriggerEnter.Invoke();
     }
-
 }
