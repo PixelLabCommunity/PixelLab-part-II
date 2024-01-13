@@ -88,3 +88,11 @@ Update Mode: mergeDefaultDependencies
 The following packages were added:
   com.unity.cinemachine@2.9.7
   com.unity.render-pipelines.universal@16.0.4
+
+=== Sat Jan 13 20:38:25 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.render-pipelines.universal from version 16.0.4 to 16.0.5
