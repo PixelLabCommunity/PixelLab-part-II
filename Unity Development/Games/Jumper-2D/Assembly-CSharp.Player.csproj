@@ -70,6 +70,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerDeath.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerTokenCollision.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\Test.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Mechanics\VictoryZone.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
