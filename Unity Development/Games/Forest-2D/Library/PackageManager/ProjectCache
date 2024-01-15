@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638380105646610670
-    m_Hash: 2923328203
+      ticks: 638409023542897126
+    m_Hash: 602859339
   m_LockFileStatus:
     m_FilePath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638390965683763195
-    m_Hash: 3226255583
+      ticks: 638409024056642313
+    m_Hash: 3640843514
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
-m_EditorVersion: 2023.2.4f1 (accd6d46ced1)
+m_EditorVersion: 2023.2.5f1 (381b4941466e)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
@@ -227,9 +227,9 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 10.0.3
+    version: 10.1.0
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -372,7 +372,6 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     compatible:
-    - 3.0.26
     - 3.0.27
     recommended: 3.0.27
     deprecated: []
@@ -404,7 +403,7 @@ m_ResolvedPackages:
     revision: 1d471c19a7f21834ae5b8d0358fd6f9b242c1ee8
     path: 
   unityLifecycle:
-    version: 3.0.26
+    version: 3.0.27
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -521,12 +520,12 @@ m_ResolvedPackages:
     Prevent circular dependency errors with SDK-Style projects."}'
   assetStore:
     productId: 
-- packageId: com.unity.render-pipelines.universal@16.0.4
+- packageId: com.unity.render-pipelines.universal@16.0.5
   testable: 0
   isDirectDependency: 1
-  version: 16.0.4
+  version: 16.0.5
   source: 2
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.render-pipelines.universal@16.0.4
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.render-pipelines.universal@16.0.5
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -588,10 +587,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 16.0.4
+    - 16.0.5
     compatible:
-    - 16.0.4
-    recommended: 16.0.4
+    - 16.0.5
+    recommended: 16.0.5
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -599,16 +598,16 @@ m_ResolvedPackages:
   - name: com.unity.burst
     version: 1.8.9
   - name: com.unity.render-pipelines.core
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.shadergraph
-    version: 16.0.4
+    version: 16.0.5
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.11
   - name: com.unity.render-pipelines.core
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
@@ -632,7 +631,7 @@ m_ResolvedPackages:
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.shadergraph
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.searcher
     version: 4.9.2
   keywords:
@@ -663,7 +662,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 16.0.4
+    version: 16.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3730,9 +3729,11 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     - 1.8.11
+    - 1.8.12
     compatible:
     - 1.8.11
-    recommended: 1.8.11
+    - 1.8.12
+    recommended: 1.8.12
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -3775,12 +3776,12 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Added\n- Burst support for Apple visionOS"}'
   assetStore:
     productId: 
-- packageId: com.unity.render-pipelines.core@16.0.4
+- packageId: com.unity.render-pipelines.core@16.0.5
   testable: 0
   isDirectDependency: 0
-  version: 16.0.4
+  version: 16.0.5
   source: 2
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.render-pipelines.core@16.0.4
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.render-pipelines.core@16.0.5
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3898,10 +3899,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 16.0.4
+    - 16.0.5
     compatible:
-    - 16.0.4
-    recommended: 16.0.4
+    - 16.0.5
+    recommended: 16.0.5
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -3965,7 +3966,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 16.0.4
+    version: 16.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3978,12 +3979,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.shadergraph@16.0.4
+- packageId: com.unity.shadergraph@16.0.5
   testable: 0
   isDirectDependency: 0
-  version: 16.0.4
+  version: 16.0.5
   source: 2
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.shadergraph@16.0.4
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.shadergraph@16.0.5
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4098,19 +4099,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 16.0.4
+    - 16.0.5
     compatible:
-    - 16.0.4
-    recommended: 16.0.4
+    - 16.0.5
+    recommended: 16.0.5
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.searcher
     version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.ugui
@@ -4161,7 +4162,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 16.0.4
+    version: 16.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4174,12 +4175,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.2d.animation@10.0.3
+- packageId: com.unity.2d.animation@10.1.0
   testable: 0
   isDirectDependency: 0
-  version: 10.0.3
+  version: 10.1.0
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.animation@10.0.3
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.animation@10.1.0
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4306,6 +4307,7 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.0.4
+    - 9.1.0
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4314,13 +4316,12 @@ m_ResolvedPackages:
     - 10.0.3
     - 10.1.0
     compatible:
-    - 10.0.3
     - 10.1.0
-    recommended: 10.0.3
+    recommended: 10.1.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -4331,7 +4332,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -4373,16 +4374,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638294344950000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.0/manual/index.html
+  datePublishedTicks: 638385782110000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b0f3a8f8d95618bb6a299742c1bbd4e96699180b
+    revision: 3a8c2f9b2c7b838b05ac7f6608beaff56e04b4d0
     path: 
   unityLifecycle:
-    version: 10.0.3
+    version: 10.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4392,13 +4393,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where the FK doesn''t blend
-    correctly with the IK if solver solves from the bind pose. (case DANB-484)\n-
-    Fixed an issue where GPU-deformed Sprites will not animated after scene reload.
-    (case DANB-461) \n- Added correct help documentation link to Sprite Library Asset.
-    (case DANB-487)\n\n##Changed\n- Updated documentation on enabling GPU skinning.\n-
-    Update the Sprite Library component inspector to inform users about the entry
-    overrides documentation page."}'
+  upmReserved: '{"changelog":"### Fixed\n- Blend weight vertex attribute is added
+    only when sprite has bones. (case DANB-521)\n- Sprite Library editor drag and
+    drop interactions. (case DANB-536)\n- Sprite Library editor drag and drop blocked
+    by labels. (case DANB-560)\n- Adjust the copy-paste logic to not paste sprite
+    mesh to the same sprite twice. (case DANB-532)\n- Sprite Library Asset is selected
+    on creation. (case DANB-544)\n- Sprite Library Editor window not reacting to
+    the delete command. (case DANB-547)\n\n### Added\n- SpriteSkin''s Auto Rebind
+    property can now be accessed from scripts. (case DANB-492)\n- Sprite Library
+    public API to save an asset as a .spriteLib SpriteLibrarySourceAsset.\n- Ability
+    to lock Sprite Library Editor window''s asset selection.\n\n### Changed\n- Update
+    samples to use UI Toolkit.\n- Moved the Sprite Library Editor window''s save
+    shortcut to the Shortcut Manager."}'
   assetStore:
     productId: 
 - packageId: com.unity.2d.pixel-perfect@5.0.3
@@ -4582,6 +4588,7 @@ m_ResolvedPackages:
     - 8.0.1
     - 8.0.2
     - 8.0.3
+    - 8.0.4
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -4597,7 +4604,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -4838,7 +4845,7 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -5163,7 +5170,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.common
-    version: 9.0.2
+    version: 9.0.3
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.uielements
@@ -5352,7 +5359,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 16.0.4
+    version: 16.0.5
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.modules.ui
@@ -5399,12 +5406,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.2d.common@9.0.2
+- packageId: com.unity.2d.common@9.0.3
   testable: 0
   isDirectDependency: 0
-  version: 9.0.2
+  version: 9.0.3
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.common@9.0.2
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.common@9.0.3
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -5473,7 +5480,6 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     compatible:
-    - 9.0.2
     - 9.0.3
     recommended: 9.0.3
     deprecated: []
@@ -5521,16 +5527,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638294344900000000
+  datePublishedTicks: 638385782070000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b0f3a8f8d95618bb6a299742c1bbd4e96699180b
+    revision: 3a8c2f9b2c7b838b05ac7f6608beaff56e04b4d0
     path: 
   unityLifecycle:
-    version: 9.0.2
+    version: 9.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5540,9 +5546,7 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added Samples for SpriteAtlas.\n\n###
-    Fixed\n- Fixed case where PVRTC compression format for the iOS platform is not
-    supported. (Case DANB-500)\n\n(Case DANB-500)"}'
+  upmReserved: '{"changelog":"### Added\n- Add ability to add lock to EditorWindow"}'
   assetStore:
     productId: 
 - packageId: com.unity.collections@1.4.0
