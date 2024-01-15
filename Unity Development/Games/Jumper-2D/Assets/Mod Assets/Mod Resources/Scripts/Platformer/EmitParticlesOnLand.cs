@@ -1,39 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Platformer.Gameplay;
 using UnityEngine;
-using System.Reflection;
 
 [RequireComponent(typeof(ParticleSystem))]
 public class EmitParticlesOnLand : MonoBehaviour
 {
-
-    public bool emitOnLand = true;
-    public bool emitOnEnemyDeath = true;
+    [SerializeField] private bool emitOnLand = true;
+    [SerializeField] private bool emitOnEnemyDeath = true;
 
 #if UNITY_TEMPLATE_PLATFORMER
 
-    ParticleSystem p;
+    private ParticleSystem _particleSystem;
 
-    void Start()
+    private void Start()
     {
-        p = GetComponent<ParticleSystem>();
+        _particleSystem = GetComponent<ParticleSystem>();
 
-        if (emitOnLand) {
-            Platformer.Gameplay.PlayerLanded.OnExecute += PlayerLanded_OnExecute;
-            void PlayerLanded_OnExecute(Platformer.Gameplay.PlayerLanded obj) {
-                p.Play();
+        if (emitOnLand)
+        {
+            PlayerLanded.OnExecute += PlayerLandedOnExecute;
+
+            void PlayerLandedOnExecute(PlayerLanded obj)
+            {
+                _particleSystem.Play();
             }
         }
 
-        if (emitOnEnemyDeath) {
-            Platformer.Gameplay.EnemyDeath.OnExecute += EnemyDeath_OnExecute;
-            void EnemyDeath_OnExecute(Platformer.Gameplay.EnemyDeath obj) {
-                p.Play();
+        if (!emitOnEnemyDeath) return;
+        {
+            EnemyDeath.OnExecute += EnemyDeathOnExecute;
+
+            void EnemyDeathOnExecute(EnemyDeath obj)
+            {
+                _particleSystem.Play();
             }
         }
-
     }
 
 #endif
-
 }
