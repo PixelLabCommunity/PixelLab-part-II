@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d69b3e-0a34-4e8b-88a3-75be7ada71a9" name="Changes" comment="Unity/Games/Jumper-2D: update scene, added new stuff, misc updates">
+    <list default="true" id="e6d69b3e-0a34-4e8b-88a3-75be7ada71a9" name="Changes" comment="Unity/Games/Jumper-2D: update jump effect , added new particle on Land Effect">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jumper-2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jumper-2D/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
@@ -111,7 +114,7 @@
       <workItem from="1704903790810" duration="3214000" />
       <workItem from="1705167825503" duration="2031000" />
       <workItem from="1705171798662" duration="1099000" />
-      <workItem from="1705340288069" duration="469000" />
+      <workItem from="1705340288069" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="Unity/Games/Jumper-2D: update scripts, clearn up, added new game content">
       <option name="closed" value="true" />
@@ -185,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705340459014</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Unity/Games/Jumper-2D: update jump effect , added new particle on Land Effect">
+      <option name="closed" value="true" />
+      <created>1705341072658</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705341072658</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +217,8 @@
     <MESSAGE value="Unity/Games/Jumper-2D: update build" />
     <MESSAGE value="Unity/Games/Jumper-2D: added new Confeti trigger" />
     <MESSAGE value="Unity/Games/Jumper-2D: update scene, added new stuff, misc updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unity/Games/Jumper-2D: update scene, added new stuff, misc updates" />
+    <MESSAGE value="Unity/Games/Jumper-2D: update jump effect , added new particle on Land Effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unity/Games/Jumper-2D: update jump effect , added new particle on Land Effect" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
