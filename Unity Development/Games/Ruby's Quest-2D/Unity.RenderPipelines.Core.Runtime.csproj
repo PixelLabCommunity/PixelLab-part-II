@@ -201,8 +201,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Lighting\ProbeVolume\ProbeVolumeScratchBufferPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Debugging\DebugManager.UIState.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\ShaderLibrary\Sampling\Hammersley.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Debugging\ProfilingScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Camera\FreeCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Debugging\ProfilingScope.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Debugging\DebugManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Lighting\ProbeVolume\ProbeBrickIndex.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.5\Runtime\Utilities\Blitter.cs" />

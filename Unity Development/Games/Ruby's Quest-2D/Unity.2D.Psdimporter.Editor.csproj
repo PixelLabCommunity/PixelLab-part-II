@@ -66,8 +66,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\PSDImportData.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\PSDImporterAPI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\PSDImportPostProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\TexturePlatformSettingsController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\PSDImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\TexturePlatformSettingsController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\UTK\UIColumn.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\Editor\ImportUtilites.cs" />

@@ -175,8 +175,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\VisibilityTool\MeshVisibilityTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\Triangulation\TriangulationUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\UpgradeTools\Utilities\ButtonStripField.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\OutlineGenerator\OutlineGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SpriteLib\SpriteLibraryEditor\UI\LabelsTab.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\OutlineGenerator\OutlineGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\UI\BoneToolbar.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\SkinningCache\SkeletonCacheExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation@10.1.0\Editor\SkinningModule\BatchedDrawing.cs" />

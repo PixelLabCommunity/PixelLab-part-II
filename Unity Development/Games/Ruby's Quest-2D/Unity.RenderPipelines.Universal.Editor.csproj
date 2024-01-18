@@ -61,13 +61,13 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGraph\Targets\UniversalTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Overrides\DepthOfFieldEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGraph\Targets\UniversalSixWaySubTarget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\ShapeEditor\Selection\IndexedSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Decal\DecalShaderGraphGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\ShapeEditor\Selection\IndexedSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGUI\SixWayGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\UniversalRenderPipelineAsset\UniversalRenderPipelineAssetUI.Drawers.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\ShapeEditor\Shapes\Spline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Settings\PropertyDrawers\URPShaderStrippingSettingsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGraph\AssetCallbacks\CreateCanvasShaderGraph.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Settings\PropertyDrawers\URPShaderStrippingSettingsPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGUI\Shaders\BakedLitShader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\ShaderGUI\ParticleGUI.cs" />
@@ -244,8 +244,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Decal\ProjectedTransform.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\Converter\BuiltInToURP2DMaterialUpgrader.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\ShapeEditor\GUIFramework\CommandAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\VFXGraph\VFXDecalURPOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\AssetVersion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\VFXGraph\VFXDecalURPOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\AssetPostProcessors\AutodeskInteractiveMaterialImport.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\Camera\UniversalRenderPipelineCameraUI.PresetInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\Editor\2D\ShapeEditor\View\EditablePathView.cs" />
