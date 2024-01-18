@@ -445,6 +445,8 @@ FodyWeavers.xsd
 /Unity Development/Games/Ruby's Quest-2D/Library/PlayerDataCache/
 /Unity Development/Games/Ruby's Quest-2D/Library/BurstCache/
 /Unity Development/Games/Ruby's Quest-2D/ArtifactDB
+/Unity Development/Games/Ruby's Quest-2D/Library/APIUpdater/
+
 
 # JetBrains Rider
 *.sln.iml
