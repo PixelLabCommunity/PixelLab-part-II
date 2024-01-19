@@ -46,6 +46,17 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2023.2.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\UnityTechnologies\Scripts\Enemy.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\NonPlayerCharacter.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIQuestDisplay.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\DamageZone.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIHealthBar.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\RubyController.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\Projectile.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIDialogueBox.cs" />
+    <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIAmmoCount.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\package.json" />
@@ -57,6 +68,7 @@
     <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\README.txt" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\package.json" />
+    <None Include="Library\PackageCache\com.unity.cinemachine@2.9.5\ValidationExceptions.json" />
     <None Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.ext.nunit@2.0.5\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3\package.json" />
@@ -93,11 +105,13 @@
     <None Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.22\ValidationExceptions.json" />
     <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.umbra@1.0.0\package.json" />
+    <None Include="Library\PackageCache\com.unity.cinemachine@2.9.5\license.txt" />
     <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@4.0.2\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\ValidationExceptions.json" />
     <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
+    <None Include="Library\PackageCache\com.unity.cinemachine@2.9.5\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.feature.2d@2.0.0\package.json" />
@@ -843,6 +857,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{2f2889bc-f9a3-de21-e9a8-aa7828d73622}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{834eea53-6af6-1c5b-baea-a73e3f51478e}</Project>
       <Name>UnityEditor.UI</Name>
@@ -1022,6 +1040,10 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{642fab45-7289-9a9a-db72-7eaec7e0a184}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{eb6ac4df-5b37-10ce-7084-981a19cedbc3}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{f3d9af0a-3a44-146d-e893-2fc2d7889106}</Project>
