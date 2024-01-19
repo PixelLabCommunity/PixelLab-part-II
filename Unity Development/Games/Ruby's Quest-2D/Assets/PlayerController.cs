@@ -1,14 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    private void Update()
+    [SerializeField] private float speed = 5.0f;
+    private PlayerControls _playerControls;
+
+    private Rigidbody2D _rigidbody2D;
+
+    private void Awake()
     {
-        var movement = transform;
-        Vector2 position = movement.position;
-        position.x = position.x + 0.0001f;
-        movement.position = position;
+        _playerControls = new PlayerControls();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnMove(InputValue inputValue)
+    {
+        _rigidbody2D.velocity = inputValue.Get<Vector2>() * speed;
     }
 }
