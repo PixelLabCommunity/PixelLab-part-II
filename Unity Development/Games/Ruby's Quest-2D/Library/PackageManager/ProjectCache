@@ -23,7 +23,7 @@ m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Ruby's
   Quest-2D/Packages
-m_EditorVersion: 2023.2.5f1 (381b4941466e)
+m_EditorVersion: 2023.2.6f1 (57daeefc879b)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
