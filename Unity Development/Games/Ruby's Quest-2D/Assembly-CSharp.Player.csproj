@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UnityTechnologies\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\NonPlayerCharacter.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\HealthCollectible.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIQuestDisplay.cs" />
@@ -55,7 +56,6 @@
     <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIHealthBar.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\RubyController.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\Projectile.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIDialogueBox.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIAmmoCount.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
