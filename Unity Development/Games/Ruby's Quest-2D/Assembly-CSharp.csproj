@@ -50,6 +50,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\NonPlayerCharacter.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\PlayerHealth.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\UI\UIQuestDisplay.cs" />
     <Compile Include="Assets\UnityTechnologies\Scripts\DamageZone.cs" />
     <Compile Include="Assets\InputSystem\PlayerControls.cs" />
