@@ -5,8 +5,8 @@ public class PlayerHealth : MonoBehaviour
     private const int MinHealth = 0;
     private const int HealthUp = 1;
     private const int HealthDown = -1;
+    private const float TimeInvisible = 2.0f;
     [SerializeField] private int maxHealth = 5;
-    private readonly float _timeInvisible = 2.0f;
 
     private int _currentHealth;
     private float _invisibleTimer;
@@ -43,7 +43,7 @@ public class PlayerHealth : MonoBehaviour
                 return;
 
             _isInvisible = true;
-            _invisibleTimer = _timeInvisible;
+            _invisibleTimer = TimeInvisible;
         }
 
         _currentHealth = Mathf.Clamp(_currentHealth + amount, MinHealth, maxHealth);
