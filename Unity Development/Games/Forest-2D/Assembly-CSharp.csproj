@@ -44,7 +44,7 @@
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.11\package.json" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.12\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
@@ -114,21 +114,21 @@
     <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.animation@10.1.0\package.json" />
     <None Include="Library\PackageCache\com.unity.collections@1.4.0\ValidationExceptions.json" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.11\Unity.Burst.Unsafe.xml" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.12\Unity.Burst.Unsafe.xml" />
     <None Include="Library\PackageCache\com.unity.2d.psdimporter@9.0.1\package.json" />
     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.burst@1.8.11\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.burst@1.8.12\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.7f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
