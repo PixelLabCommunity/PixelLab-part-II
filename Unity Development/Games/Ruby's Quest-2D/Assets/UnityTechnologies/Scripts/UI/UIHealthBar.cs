@@ -1,31 +1,26 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// This class take care of scaling the UI image that is used as a health bar, based on the ratio sent to it.
-/// It is a singleton so it can be called from anywhere (e.g. PlayerController SetHealth)
-/// </summary>
 public class UIHealthBar : MonoBehaviour
 {
-	public static UIHealthBar Instance { get; private set; }
+    public Image bar;
 
-	public Image bar;
+    private float _originalSize;
+    public static UIHealthBar Instance { get; private set; }
 
-	float originalSize;
+    // Use this for initialization
+    private void Awake()
+    {
+        Instance = this;
+    }
 
-	// Use this for initialization
-	void Awake ()
-	{
-		Instance = this;
-	}
+    private void OnEnable()
+    {
+        _originalSize = bar.rectTransform.rect.width;
+    }
 
-	void OnEnable()
-	{
-		originalSize = bar.rectTransform.rect.width;
-	}
-
-	public void SetValue(float value)
-	{		
-		bar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * value);
-	}
+    public void SetValue(float value)
+    {
+        bar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, _originalSize * value);
+    }
 }
