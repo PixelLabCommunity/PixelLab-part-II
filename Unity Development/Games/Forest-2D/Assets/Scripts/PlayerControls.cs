@@ -9,7 +9,7 @@ public class PlayerControls : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         PlayerMovement();
     }

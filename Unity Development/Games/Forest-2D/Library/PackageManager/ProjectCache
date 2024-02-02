@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638421539371782088
-    m_Hash: 582621191
+      ticks: 638425043347292374
+    m_Hash: 3178576645
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
-m_EditorVersion: 2023.2.7f1 (0a9195b3d453)
+m_EditorVersion: 2023.2.8f1 (a3bb09f8c8c4)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
@@ -621,7 +621,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.rendering.light-transport
-    version: 1.0.0
+    version: 1.0.1
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.nuget.mono-cecil
@@ -3956,7 +3956,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.rendering.light-transport
-    version: 1.0.0
+    version: 1.0.1
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.burst
@@ -4150,7 +4150,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.rendering.light-transport
-    version: 1.0.0
+    version: 1.0.1
   - name: com.unity.collections
     version: 1.4.0
   - name: com.unity.burst
@@ -5336,12 +5336,12 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-- packageId: com.unity.rendering.light-transport@1.0.0
+- packageId: com.unity.rendering.light-transport@1.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
+  version: 1.0.1
   source: 2
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.rendering.light-transport@1.0.0
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.rendering.light-transport@1.0.1
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -5356,10 +5356,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 1.0.1
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
     deprecated: []
   dependencies:
   - name: com.unity.collections
@@ -5420,7 +5420,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
