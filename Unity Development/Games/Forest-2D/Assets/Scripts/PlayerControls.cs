@@ -13,21 +13,12 @@ public class PlayerControls : MonoBehaviour
     private void FixedUpdate()
     {
         PlayerMovement();
-    }
-
+    } // ReSharper disable Unity.PerformanceAnalysis
     private void PlayerMovement()
     {
-        var playerPosition = Vector2.zero;
-        if (Input.GetKey(KeyCode.W)) playerPosition.y = 1.0f;
-
-        if (Input.GetKey(KeyCode.A)) playerPosition.x = -1.0f;
-
-        if (Input.GetKey(KeyCode.S)) playerPosition.y = -1.0f;
-
-        if (Input.GetKey(KeyCode.D)) playerPosition.x = 1.0f;
-
+        var playerPosition = GameInput.instance.GetVectorMovement();
         playerPosition = playerPosition.normalized;
 
-        _rigidbody2D.MovePosition(_rigidbody2D.position + playerPosition * speed * Time.fixedDeltaTime);
+        _rigidbody2D.MovePosition(_rigidbody2D.position + playerPosition * (speed * Time.fixedDeltaTime));
     }
 }
