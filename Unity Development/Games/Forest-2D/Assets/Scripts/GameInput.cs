@@ -12,7 +12,7 @@ public class GameInput : MonoBehaviour
         _playerInputActions.Enable();
     }
 
-    public Vector2 GetVectorMovement()
+    protected internal Vector2 GetVectorMovement()
     {
         var inputVector = _playerInputActions.Player.Move.ReadValue<Vector2>();
         return inputVector;
