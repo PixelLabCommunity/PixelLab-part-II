@@ -3,11 +3,11 @@ using UnityEngine;
 public class GameInput : MonoBehaviour
 {
     private PlayerInputActions _playerInputActions;
-    public static GameInput instance { get; private set; }
+    public static GameInput template { get; private set; }
 
     private void Awake()
     {
-        instance = this;
+        template = this;
         _playerInputActions = new PlayerInputActions();
         _playerInputActions.Enable();
     }

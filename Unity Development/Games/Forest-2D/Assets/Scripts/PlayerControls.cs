@@ -2,23 +2,38 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    private const float MinMovingSpeed = 0.1f;
     [SerializeField] private float speed = 5.0f;
+    private bool _isRunning;
     private Rigidbody2D _rigidbody2D;
+    public static PlayerControls template { get; private set; }
 
     private void Awake()
     {
+        template = this;
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
         PlayerMovement();
-    } // ReSharper disable Unity.PerformanceAnalysis
+    }
+
     private void PlayerMovement()
     {
-        var playerPosition = GameInput.instance.GetVectorMovement();
+        var playerPosition = GameInput.template.GetVectorMovement();
         playerPosition = playerPosition.normalized;
 
         _rigidbody2D.MovePosition(_rigidbody2D.position + playerPosition * (speed * Time.fixedDeltaTime));
+        if (Mathf.Abs(playerPosition.x) > MinMovingSpeed || Mathf.Abs(playerPosition.y) > MinMovingSpeed)
+            _isRunning = true;
+
+        else
+            _isRunning = false;
+    }
+
+    public bool IsRuning()
+    {
+        return _isRunning;
     }
 }
