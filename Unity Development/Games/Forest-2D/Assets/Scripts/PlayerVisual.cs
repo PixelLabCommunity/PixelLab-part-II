@@ -1,9 +1,10 @@
+using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 
+[SuppressMessage("ReSharper", "InconsistentNaming")]
 public class PlayerVisual : MonoBehaviour
 {
-    private const string IsRunning = "IsRunning";
-    private static readonly int Running = Animator.StringToHash(IsRunning);
+    private const string IS_RUNNING = "IsRunning";
 
     private Animator _animator;
 
@@ -12,8 +13,9 @@ public class PlayerVisual : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
+    [SuppressMessage("ReSharper", "Unity.PreferAddressByIdToGraphicsParams")]
     private void Update()
     {
-        if (!_animator) _animator.SetBool(Running, PlayerControls.template.IsRuning());
+        _animator.SetBool(IS_RUNNING, PlayerControls.template.IsRuning());
     }
 }

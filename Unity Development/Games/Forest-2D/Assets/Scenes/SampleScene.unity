@@ -174,6 +174,7 @@ GameObject:
   - component: {fileID: 418785208}
   - component: {fileID: 418785209}
   - component: {fileID: 418785210}
+  - component: {fileID: 418785211}
   m_Layer: 0
   m_Name: PlayerVisual
   m_TagString: Untagged
@@ -272,6 +273,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &418785211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418785207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdd05ba3a2f6da4fb7667aa0c017f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +567,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.5839921, g: 0.8553459, b: 0.20711197, a: 1}
+  m_Color: {r: 0.40811247, g: 0.5283019, b: 0.24089234, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
