@@ -32,8 +32,14 @@ public class PlayerControls : MonoBehaviour
             _isRunning = false;
     }
 
-    public bool IsRuning()
+    protected internal bool IsRuning()
     {
         return _isRunning;
+    }
+
+    public Vector2 GetPlayerScreenPosition()
+    {
+        Vector2 playerScreenPosition = Camera.main!.WorldToScreenPoint(transform.position);
+        return playerScreenPosition;
     }
 }
