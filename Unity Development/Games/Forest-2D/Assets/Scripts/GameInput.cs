@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameInput : MonoBehaviour
 {
@@ -12,9 +13,16 @@ public class GameInput : MonoBehaviour
         _playerInputActions.Enable();
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     protected internal Vector2 GetVectorMovement()
     {
         var inputVector = _playerInputActions.Player.Move.ReadValue<Vector2>();
         return inputVector;
+    }
+
+    public static Vector2 GetMousePosition()
+    {
+        var mousePosition = Mouse.current.position.ReadValue();
+        return mousePosition;
     }
 }
