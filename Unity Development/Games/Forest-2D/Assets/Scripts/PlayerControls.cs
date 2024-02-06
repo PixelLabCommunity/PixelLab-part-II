@@ -22,8 +22,7 @@ public class PlayerControls : MonoBehaviour
     private void PlayerMovement()
     {
         var playerPosition = GameInput.template.GetVectorMovement();
-        playerPosition = playerPosition.normalized;
-
+        
         _rigidbody2D.MovePosition(_rigidbody2D.position + playerPosition * (speed * Time.fixedDeltaTime));
         if (Mathf.Abs(playerPosition.x) > MinMovingSpeed || Mathf.Abs(playerPosition.y) > MinMovingSpeed)
             _isRunning = true;
