@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7273417386228307050}
   - component: {fileID: 6789460446434151267}
   - component: {fileID: 2893299970849008404}
-  - component: {fileID: 4261463851298840418}
+  - component: {fileID: 841997616023675184}
   m_Layer: 0
   m_Name: TreeBig
   m_TagString: Untagged
@@ -125,7 +125,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.059259593, y: 0.45556262}
   m_Size: {x: 1.6459007, y: 0.81482893}
   m_Direction: 1
---- !u!114 &4261463851298840418
+--- !u!114 &841997616023675184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,10 +134,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5161146050271905367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Script: {fileID: 11500000, guid: d5129362b081a1c4a985b8690fbdedfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Size: {x: 1.5503259, y: 0.5503259, z: 4}
-  m_Center: {x: 0.0037920475, y: 0.36672473, z: 0}
+  m_Size: {x: 1.6034136, y: 0.8385229, z: 4}
+  m_Center: {x: 0.03792, y: 0.45015097, z: 0}
   m_Area: 1
   m_AffectedAgents: ffffffff

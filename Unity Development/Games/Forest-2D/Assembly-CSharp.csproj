@@ -64,6 +64,7 @@
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.ext.nunit@2.0.5\package.json" />
+    <None Include="Assets\NavMeshPlus\package.json" />
     <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
@@ -874,13 +875,13 @@
       <Project>{cebe17d0-969d-8b46-0ba8-908860e225b6}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.csproj">
+      <Project>{084c8dda-bded-c71b-f205-54fa1ac2d2fb}</Project>
+      <Name>NavMeshPlus</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{0bada0dd-0377-3bf8-fdc2-e47bea2d2c2f}</Project>
       <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshPlusEditor.csproj">
-      <Project>{d8a03cc0-1d3d-fa41-a43e-89b48892df06}</Project>
-      <Name>NavMeshPlusEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Path.Editor.csproj">
       <Project>{11354c66-4320-7935-3b38-09cc7d9ffb0a}</Project>
@@ -938,6 +939,10 @@
       <Project>{54b2d2cd-f449-1828-43c1-eaf928ceeed2}</Project>
       <Name>Unity.2D.Aseprite.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshPlusEditor.csproj">
+      <Project>{d8a03cc0-1d3d-fa41-a43e-89b48892df06}</Project>
+      <Name>NavMeshPlusEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{7d6f483a-26c7-c673-1a4c-3742a436b9c1}</Project>
       <Name>Unity.Mathematics.Editor</Name>
@@ -985,10 +990,6 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{9d9c3b7d-267b-c1a1-fdbf-24867f3347e2}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshPlus.csproj">
-      <Project>{084c8dda-bded-c71b-f205-54fa1ac2d2fb}</Project>
-      <Name>NavMeshPlus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
       <Project>{493106df-ac3c-0607-a06b-91d8438011bc}</Project>

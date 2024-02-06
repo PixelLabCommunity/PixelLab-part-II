@@ -46,20 +46,20 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2023.2.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\RootSources2dEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\AgentOverride2dEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\CollectSources2dEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
-    <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
-    <None Include="Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\CollectSources2dEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\CollectSourcesCache2dEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshAreaAttributePropertyDrawer.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\AgentOverride2dEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\RootSources2dEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshModifierTilemapEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshAgentAttributePropertyDrawer.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+    <None Include="Assets\NavMeshPlus\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

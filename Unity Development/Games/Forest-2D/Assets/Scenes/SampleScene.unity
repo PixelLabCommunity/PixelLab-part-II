@@ -641,7 +641,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 678559654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Script: {fileID: 11500000, guid: ddaec9690c7d4744daf90b0681bfa30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 990167003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70bd44a44cd62c64fbfc1eea95b24880, type: 3}
+  m_Script: {fileID: 11500000, guid: 17db59b93ea75314c937bb702eb5d925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideByGrid: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 990167003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04976799df50f54ba128eff723155a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 309ce12a50a27ef4195501a819b699ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AgentTypeID: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: fc6d6b30d4cf92a4a899a6223b99091b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6de3f44e458707747bc2258d16e30f90, type: 2}
 --- !u!1 &1032999987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,11 +1118,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 621731182948652879, guid: 8662cc01f87df354cad7466bf2467afd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6301060432449123098, guid: 8662cc01f87df354cad7466bf2467afd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2300973357377208846}
   m_SourcePrefab: {fileID: 100100000, guid: 8662cc01f87df354cad7466bf2467afd, type: 3}
+--- !u!1 &2300973357377208845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6301060432449123098, guid: 8662cc01f87df354cad7466bf2467afd, type: 3}
+  m_PrefabInstance: {fileID: 2300973357377208844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2300973357377208846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300973357377208845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5129362b081a1c4a985b8690fbdedfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 4, y: 3, z: 4}
+  m_Center: {x: 0, y: 1, z: 0}
+  m_Area: 0
+  m_AffectedAgents: ffffffff
 --- !u!1001 &6601122711774558773
 PrefabInstance:
   m_ObjectHideFlags: 0

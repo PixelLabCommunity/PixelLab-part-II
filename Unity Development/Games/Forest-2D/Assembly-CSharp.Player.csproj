@@ -654,6 +654,10 @@
       <Project>{25c0870c-3055-c825-2e30-cce60047a9db}</Project>
       <Name>Unity.AI.Navigation.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.Player.csproj">
+      <Project>{78a706ff-a5e8-4627-cbc7-e19e115396c1}</Project>
+      <Name>NavMeshPlus.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{dab26ac1-6ce3-d088-8c67-3f7a5017e1b2}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
@@ -697,10 +701,6 @@
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.Player.csproj">
       <Project>{d8632643-b989-2c29-9e23-dd14379b6c3b}</Project>
       <Name>Unity.InternalAPIEngineBridge.001.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshPlus.Player.csproj">
-      <Project>{78a706ff-a5e8-4627-cbc7-e19e115396c1}</Project>
-      <Name>NavMeshPlus.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.Player.csproj">
       <Project>{3f584836-65d2-a15e-d2fa-79165ca1b055}</Project>

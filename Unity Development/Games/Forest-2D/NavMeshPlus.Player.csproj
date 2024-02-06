@@ -46,25 +46,25 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\2023.2.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshBuilder2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\AgentOverride2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\AgentRotate2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\RotateAgentInstantly.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\RotateAgentSmoothly.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\RootSources2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshBuilderState.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\CollectSources2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\CollectSourcesCache2d.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs" />
-    <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshExtension.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\CollectSources2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\RotateAgentSmoothly.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshAreaAttribute.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshExtension.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\AgentRotate2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\RootSources2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshExtensionsProvider.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshModifierTilemap.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\AgentRotateSmooth2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshBuilderState.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\RotateAgentInstantly.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\AgentOverride2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshBuilder2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\CollectSourcesCache2d.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshAgentAttribute.cs" />
+    <Compile Include="Assets\NavMeshPlus\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 32
+  controlID: 138
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,8 +220,8 @@ MonoBehaviour:
     y: 0
     width: 424.6667
     height: 486
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -324,8 +324,8 @@ MonoBehaviour:
     y: 0
     width: 364.66663
     height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -1278,9 +1278,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.3288586, y: 0.80863225, z: -0.037466154}
+    m_Target: {x: -1.8475424, y: 2.4374561, z: -0.037466154}
     speed: 2
-    m_Value: {x: 0.3288586, y: 0.80863225, z: -0.037466154}
+    m_Value: {x: 3.8191233, y: 4.59839, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1332,7 +1332,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 4.612641
     speed: 2
-    m_Value: 4.612641
+    m_Value: 2.3510802
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1438,9 +1438,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94aa0000
-      m_LastClickedID: 43668
-      m_ExpandedIDs: f2faffff94aa00009caa0000c2aa0000c6aa0000d2aa0000e2aa0000
+      m_SelectedIDs: beaa0000
+      m_LastClickedID: 43710
+      m_ExpandedIDs: f2faffffb6aa0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1488,7 +1488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 558.6667
-    width: 909.6667
+    width: 915.6667
     height: 419
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1548,7 +1548,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Enemy/Slime
+    - Assets/Prefabs/Environment
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1558,16 +1558,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Enemy/Slime
+  - Assets/Prefabs/Environment
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 56ac0000
-    m_LastClickedID: 44118
-    m_ExpandedIDs: 0000000094ab000096ab000098ab00009aab00009cab00009eab0000a0ab0000a2ab0000a4ab000000ca9a3b
+    m_SelectedIDs: 92ad0000
+    m_LastClickedID: 44434
+    m_ExpandedIDs: 0000000098ab00009cab00009eab0000a0ab0000a2ab0000a4ab0000a6ab0000a8ab00004eac000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1596,7 +1596,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000094ab000096ab000098ab00009aab00009cab00009eab0000a0ab0000a2ab0000a4ab0000
+    m_ExpandedIDs: 0000000098ab00009aab00009cab00009eab0000a0ab0000a2ab0000a4ab0000a6ab0000a8ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
