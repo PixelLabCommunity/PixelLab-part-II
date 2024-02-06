@@ -110,6 +110,7 @@
     <None Include="Library\PackageCache\com.unity.modules.hierarchycore@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.ai.navigation@2.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_Properties.cginc" />
     <None Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
@@ -865,6 +866,10 @@
       <Project>{ba6da9a7-7f27-9d77-8ec6-b84a2514de61}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{e2ef16f8-88fa-f7f2-24aa-aaadf4be39b1}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
     <ProjectReference Include="PsdPlugin.csproj">
       <Project>{cebe17d0-969d-8b46-0ba8-908860e225b6}</Project>
       <Name>PsdPlugin</Name>
@@ -872,6 +877,10 @@
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{0bada0dd-0377-3bf8-fdc2-e47bea2d2c2f}</Project>
       <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlusEditor.csproj">
+      <Project>{d8a03cc0-1d3d-fa41-a43e-89b48892df06}</Project>
+      <Name>NavMeshPlusEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Path.Editor.csproj">
       <Project>{11354c66-4320-7935-3b38-09cc7d9ffb0a}</Project>
@@ -977,6 +986,10 @@
       <Project>{9d9c3b7d-267b-c1a1-fdbf-24867f3347e2}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.csproj">
+      <Project>{084c8dda-bded-c71b-f205-54fa1ac2d2fb}</Project>
+      <Name>NavMeshPlus</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
       <Project>{493106df-ac3c-0607-a06b-91d8438011bc}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
@@ -1000,6 +1013,10 @@
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{e68c80ec-78d2-2cbb-f67a-9d1c8297321c}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{c2a78fd4-c1df-b711-9232-cd50eccd8aa0}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{f8e86d9d-8101-2065-7e73-7cd7f8ddb4a0}</Project>
@@ -1029,6 +1046,10 @@
       <Project>{b3ae0b19-2d0d-1818-ed01-949c488d28ed}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{e73e86c7-8c23-5c3e-b0b1-96a88bb2900e}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{5ec7a30f-cdf2-52f4-63a3-9d6333a7c657}</Project>
       <Name>Unity.Mathematics</Name>
@@ -1052,6 +1073,10 @@
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
       <Project>{96aa1140-4bff-3487-4abe-75c2bbefefe3}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{9aa6e978-5387-5ea5-850d-24fb82373eb8}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.005.csproj">
       <Project>{5c7c1b5f-1387-fd7a-f0bc-9e67d0569182}</Project>

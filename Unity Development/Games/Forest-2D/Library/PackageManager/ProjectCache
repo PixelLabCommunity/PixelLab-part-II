@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638425853314301993
-    m_Hash: 534505468
+      ticks: 638428423005835428
+    m_Hash: 665430651
   m_LockFileStatus:
     m_FilePath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638425853314342394
-    m_Hash: 2139392043
+      ticks: 638428423005860501
+    m_Hash: 3538538792
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,86 @@ m_LocalPackages:
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
 m_EditorVersion: 2023.2.8f1 (a3bb09f8c8c4)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@2.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 1
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.ai.navigation@2.0.0
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    compatible:
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638333060450000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 365db7071a1efdbf9fc337dd1c0de02f909cd685
+    path: 
+  unityLifecycle:
+    version: 2.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* When the \"Auto Update Position\" option
+    of NavMeshLink is enabled, the link now correctly updates the connection in the
+    next frame after any of the link''s ends change their world position."}'
+  assetStore:
+    productId: 
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
