@@ -78,8 +78,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\Modes\TimelineReadOnlyMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\ItemGui\ISelectable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Signals\SignalManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\IRowGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\inspectors\EditorClipFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\IRowGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\TrackGui\TrackResizeHandle.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\State\SequenceHierarchy.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\Modes\TimelineActiveMode.cs" />
