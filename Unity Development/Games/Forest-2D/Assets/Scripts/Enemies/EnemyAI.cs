@@ -10,6 +10,9 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float wanderDistanceMin = 3f;
     [SerializeField] private float wanderTimerMax = 2f;
 
+    private readonly Vector3 _changeRotation = new(0, -180, 0);
+    private readonly Vector3 _stateRotation = new(0, 0, 0);
+
     private float _currentTime;
     private NavMeshAgent _navMeshAgent;
     private Vector2 _startingPosition;
@@ -32,13 +35,11 @@ public class EnemyAI : MonoBehaviour
         switch (_state)
         {
             default:
-            case State.Idle:
-                break;
             case State.Wandering:
                 _currentTime -= Time.deltaTime;
                 if (_currentTime < BaseTime)
                 {
-                    Wander();
+                    Wandering();
                     _currentTime = wanderTimerMax;
                 }
 
@@ -46,10 +47,11 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    private void Wander()
+    private void Wandering()
     {
         _startingPosition = transform.position;
         _wanderPosition = GetWanderPosition();
+        ChangeFacingDirection(_startingPosition, _wanderPosition);
         _navMeshAgent.SetDestination(_wanderPosition);
     }
 
@@ -65,9 +67,15 @@ public class EnemyAI : MonoBehaviour
         _navMeshAgent.updateUpAxis = false;
     }
 
+    private void ChangeFacingDirection(Vector2 sourcePosition, Vector2 targetPosition)
+    {
+        transform.rotation = sourcePosition.x > targetPosition.x
+            ? Quaternion.Euler(_changeRotation)
+            : Quaternion.Euler(_stateRotation);
+    }
+
     private enum State
     {
-        Idle,
         Wandering
     }
 }
