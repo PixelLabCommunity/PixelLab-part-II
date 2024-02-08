@@ -22,11 +22,6 @@ public class EnemyAI : MonoBehaviour
         StartState();
     }
 
-    private void Start()
-    {
-        _startingPosition = transform.position;
-    }
-
     private void Update()
     {
         AiState();
@@ -53,6 +48,7 @@ public class EnemyAI : MonoBehaviour
 
     private void Wander()
     {
+        _startingPosition = transform.position;
         _wanderPosition = GetWanderPosition();
         _navMeshAgent.SetDestination(_wanderPosition);
     }
