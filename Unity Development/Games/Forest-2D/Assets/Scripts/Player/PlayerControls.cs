@@ -5,6 +5,7 @@ public class PlayerControls : MonoBehaviour
     private const float MinMovingSpeed = 0.1f;
     [SerializeField] private float speed = 5.0f;
     private bool _isRunning;
+    private Vector2 _playerPosition;
     private Rigidbody2D _rigidbody2D;
     public static PlayerControls template { get; private set; }
 
@@ -14,6 +15,11 @@ public class PlayerControls : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        _playerPosition = GameInput.template.GetVectorMovement();
+    }
+
     private void FixedUpdate()
     {
         PlayerMovement();
@@ -21,10 +27,8 @@ public class PlayerControls : MonoBehaviour
 
     private void PlayerMovement()
     {
-        var playerPosition = GameInput.template.GetVectorMovement();
-        
-        _rigidbody2D.MovePosition(_rigidbody2D.position + playerPosition * (speed * Time.fixedDeltaTime));
-        if (Mathf.Abs(playerPosition.x) > MinMovingSpeed || Mathf.Abs(playerPosition.y) > MinMovingSpeed)
+        _rigidbody2D.MovePosition(_rigidbody2D.position + _playerPosition * (speed * Time.fixedDeltaTime));
+        if (Mathf.Abs(_playerPosition.x) > MinMovingSpeed || Mathf.Abs(_playerPosition.y) > MinMovingSpeed)
             _isRunning = true;
 
         else
