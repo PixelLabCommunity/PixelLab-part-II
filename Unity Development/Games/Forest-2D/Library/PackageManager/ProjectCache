@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638428423005860501
-    m_Hash: 3538538792
+      ticks: 638431874493280138
+    m_Hash: 4131327390
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
-m_EditorVersion: 2023.2.8f1 (a3bb09f8c8c4)
+m_EditorVersion: 2023.2.9f1 (0c9c2e1f4bef)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.0
   testable: 0
@@ -353,7 +353,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 2.0.0
   - name: com.unity.2d.aseprite
-    version: 1.1.0
+    version: 1.1.1
   keywords: []
   registry:
     id: main
@@ -5378,12 +5378,12 @@ m_ResolvedPackages:
     location of GameObject when painting and erasing"}'
   assetStore:
     productId: 
-- packageId: com.unity.2d.aseprite@1.1.0
+- packageId: com.unity.2d.aseprite@1.1.1
   testable: 0
   isDirectDependency: 0
-  version: 1.1.0
+  version: 1.1.1
   source: 1
-  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.aseprite@1.1.0
+  resolvedPath: D:\Game Development\PixelLab-part-II\Unity Development\Games\Forest-2D\Library\PackageCache\com.unity.2d.aseprite@1.1.1
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5407,7 +5407,6 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     compatible:
-    - 1.1.0
     - 1.1.1
     recommended: 1.1.1
     deprecated: []
@@ -5459,16 +5458,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638366862780000000
+  datePublishedTicks: 638415153370000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 1b0a451670ab3ee197ea415f7941f9c2a81c20fc
+    revision: 4c5ce5be19fca25f82112eb80561965bc91c72c2
     path: 
   unityLifecycle:
-    version: 1.1.0
+    version: 1.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5478,10 +5477,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added a mosaic padding option to the importer
-    editor.\n- Added Generate Physics Shape option to the importer editor.\n\n###
-    Changed\n- Fixed an issue where the background importer would act on files that
-    were not Aseprite files."}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where the Sprite Editor
+    could be opened even though there were no valid texture to open it with.\n- Fixed
+    an issue where the importer would not generate a square power of two texture
+    for compressions which needs it (pvrtc).\n- Fixed an issue where changes to linked
+    cells would not be taken into account when reimporting."}'
   assetStore:
     productId: 
 - packageId: com.unity.searcher@4.9.2
