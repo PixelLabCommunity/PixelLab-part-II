@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &6790303439182174901
 Animator:
   serializedVersion: 7
@@ -136,7 +136,7 @@ Transform:
   m_GameObject: {fileID: 5871688046778948079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -1.53, z: 0}
+  m_LocalPosition: {x: 0.29, y: -1.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -293,8 +293,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.18779649, y: -0.36274326}
-  m_Size: {x: 0.8707848, y: 0.7947763}
+  m_Offset: {x: 0.18779649, y: -0.030892398}
+  m_Size: {x: 1.4584888, y: 1.4584888}
   m_Direction: 1
 --- !u!195 &536310531656949469
 NavMeshAgent:
@@ -305,7 +305,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 7500768587182402610}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.51
   m_Speed: 1.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 032c548ff67aadd4aaa4a9c1253f82af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingState: 1
+  startingState: 0
   wanderDistanceMax: 7
   wanderDistanceMin: 3
   wanderTimerMax: 2
