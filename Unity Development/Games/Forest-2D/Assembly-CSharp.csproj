@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayerInputActions\PlayerInputActions.cs" />
+    <Compile Include="Assets\Scripts\Weapons\ActiveWeapon.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerVisual.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />

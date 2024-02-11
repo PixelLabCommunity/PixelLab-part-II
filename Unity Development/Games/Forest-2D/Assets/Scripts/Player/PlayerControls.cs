@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
@@ -15,6 +16,11 @@ public class PlayerControls : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        GameInput.template.OnPlayerAttack += GameInput_OnPlayerAttack;
+    }
+
     private void Update()
     {
         _playerPosition = GameInput.template.GetVectorMovement();
@@ -23,6 +29,11 @@ public class PlayerControls : MonoBehaviour
     private void FixedUpdate()
     {
         PlayerMovement();
+    }
+
+    private static void GameInput_OnPlayerAttack(object sender, EventArgs e)
+    {
+        ActiveWeapon.template.GetActiveWeapon().Attack();
     }
 
     private void PlayerMovement()
