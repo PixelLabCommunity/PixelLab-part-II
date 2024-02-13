@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
+    public event EventHandler OnSwordSwing;
+
     public void Attack()
     {
-        Debug.LogWarning("Attack by Sword!!!!");
+        OnSwordSwing!.Invoke(this, EventArgs.Empty);
     }
 }
