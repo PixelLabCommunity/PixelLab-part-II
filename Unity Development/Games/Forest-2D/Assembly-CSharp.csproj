@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerInputActions\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\Weapons\ActiveWeapon.cs" />
+    <Compile Include="Assets\Scripts\Weapons\SwordVisual.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerVisual.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
