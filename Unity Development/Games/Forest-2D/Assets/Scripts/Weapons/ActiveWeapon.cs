@@ -10,8 +10,21 @@ public class ActiveWeapon : MonoBehaviour
         template = this;
     }
 
+    private void Update()
+    {
+        WeaponSpriteFlip();
+    }
+
     public Sword GetActiveWeapon()
     {
         return sword;
+    }
+
+    private void WeaponSpriteFlip()
+    {
+        var mousePosition = GameInput.GetMousePosition();
+        var playerScreenPosition = PlayerControls.template.GetPlayerScreenPosition();
+
+        transform.rotation = Quaternion.Euler(0, mousePosition.x < playerScreenPosition.x ? 180 : 0, 0);
     }
 }
