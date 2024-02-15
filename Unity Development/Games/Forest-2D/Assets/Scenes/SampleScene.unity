@@ -1390,17 +1390,25 @@ PrefabInstance:
       propertyPath: sword
       value: 
       objectReference: {fileID: 1522840815}
+    - target: {fileID: 2705876224058554717, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2705876224058554717, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5923956833581886948, guid: ba754e902d0fc1441b44377730035e34, type: 3}
       propertyPath: m_Name
       value: Sword
       objectReference: {fileID: 0}
     - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.16
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.47
+      value: -0.41
       objectReference: {fileID: 0}
     - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
       propertyPath: m_LocalRotation.w
