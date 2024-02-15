@@ -1394,6 +1394,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.40729466
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.91329676
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863554265139256270, guid: ba754e902d0fc1441b44377730035e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -131.93
+      objectReference: {fileID: 0}
     - target: {fileID: 9001790209856457769, guid: ba754e902d0fc1441b44377730035e34, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
