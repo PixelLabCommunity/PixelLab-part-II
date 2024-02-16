@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Game Development/PixelLab-part-II/Unity Development/Games/Forest-2D/Packages
-m_EditorVersion: 2023.2.9f1 (0c9c2e1f4bef)
+m_EditorVersion: 2023.2.10f1 (316c1fd686f6)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.0
   testable: 0
