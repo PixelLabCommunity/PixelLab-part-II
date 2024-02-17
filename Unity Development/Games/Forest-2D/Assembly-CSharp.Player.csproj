@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\Weapons\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyEntity.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Hub\Editor\2023.2.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>

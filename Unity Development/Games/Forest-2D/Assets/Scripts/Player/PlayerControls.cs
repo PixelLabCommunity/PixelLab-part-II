@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+[SelectionBase]
 public class PlayerControls : MonoBehaviour
 {
     private const float MinMovingSpeed = 0.1f;

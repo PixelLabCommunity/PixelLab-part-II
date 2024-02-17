@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\Weapons\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyEntity.cs" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.render-pipelines.universal@16.0.5\package.json" />
     <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
