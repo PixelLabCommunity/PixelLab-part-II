@@ -21,4 +21,9 @@ public class SwordVisual : MonoBehaviour
     {
         _animator.SetTrigger(ATTACK);
     }
+
+    public void TriggerEndAttackAnimation()
+    {
+        sword.AttackColliderOff();
+    }
 }

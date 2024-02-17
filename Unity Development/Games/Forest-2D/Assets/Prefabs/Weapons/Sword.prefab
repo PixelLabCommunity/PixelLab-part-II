@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b2f2ca1118d5f428d1e672a1b8a51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 5
 --- !u!60 &4279827976179251880
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -200,7 +201,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

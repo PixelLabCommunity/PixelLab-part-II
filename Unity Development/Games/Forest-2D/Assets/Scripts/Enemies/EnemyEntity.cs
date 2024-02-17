@@ -1,18 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyEntity : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int maxHealth = 20;
+
+    private int _currentHealth;
+
+    private void Start()
     {
-        
+        _currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamade(int damage)
     {
-        
+        _currentHealth -= damage;
+
+        DetectDeath();
+    }
+
+    public void DetectDeath()
+    {
+        if (_currentHealth > 0) return;
+        Destroy(gameObject);
+        Debug.LogWarning("Creature DEAD!");
     }
 }
