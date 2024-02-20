@@ -18,7 +18,7 @@ public class Sword : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.TryGetComponent(out EnemyEntity enemyEntity)) enemyEntity.TakeDamade(damageAmount);
+        if (other.transform.TryGetComponent(out EnemyEntity enemyEntity)) enemyEntity.TakeDamage(damageAmount);
     }
 
     public event EventHandler OnSwordSwing;

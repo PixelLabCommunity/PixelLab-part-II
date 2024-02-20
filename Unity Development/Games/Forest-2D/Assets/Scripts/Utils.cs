@@ -7,9 +7,9 @@ namespace Forest2D.Utils
         private const float RandomMin = -1f;
         private const float RandomMax = 1f;
 
-        public static Vector2 GetRandomDir()
+        public static Vector3 GetRandomDir()
         {
-            return new Vector2(Random.Range(RandomMin, RandomMax), Random.Range(RandomMin, RandomMax)).normalized;
+            return new Vector3(Random.Range(RandomMin, RandomMax), Random.Range(RandomMin, RandomMax)).normalized;
         }
     }
 }
