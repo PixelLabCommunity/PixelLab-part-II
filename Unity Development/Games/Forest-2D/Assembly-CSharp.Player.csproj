@@ -52,6 +52,7 @@
     <Compile Include="Assets\Scripts\Weapons\SwordVisual.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerVisual.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Skeleton\SkeletonVisual.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Weapons\Sword.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
