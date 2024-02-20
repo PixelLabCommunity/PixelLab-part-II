@@ -14,12 +14,12 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private bool isChasingEnemy;
     [SerializeField] private bool isAttackingEnemy;
     private readonly float _attackingDistance = 2f;
+    private readonly float _attackRate = 2f;
 
     private readonly Vector3 _changeRotation = new(0, -180, 0);
     private readonly float _chasingDistance = 4f;
-    private readonly float _chasingSpeedMultiplayer = 2f;
+    private readonly float _chasingSpeedMultiplier = 2f;
     private readonly Vector3 _stateRotation = new(0, 0, 0);
-    private float _attackRate = 2f;
     private float _chasingSpeed;
     private State _currentSate;
     private float _currentTime;
@@ -93,7 +93,6 @@ public class EnemyAI : MonoBehaviour
             OnEnemyAttack?.Invoke(this, EventArgs.Empty);
             _nextAttackTime = Time.time + _attackRate;
         }
-        
     }
 
     public bool IsRunning()
@@ -153,7 +152,7 @@ public class EnemyAI : MonoBehaviour
         _navMeshAgent.updateUpAxis = false;
         var speed = _navMeshAgent.speed;
         _walkingSpeed = speed;
-        _chasingSpeed = speed * _chasingSpeedMultiplayer;
+        _chasingSpeed = speed * _chasingSpeedMultiplier;
     }
 
     private void ChangeFacingDirection(Vector2 sourcePosition, Vector2 targetPosition)

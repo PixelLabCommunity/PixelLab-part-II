@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class EnemyEntity : MonoBehaviour
@@ -11,8 +10,6 @@ public class EnemyEntity : MonoBehaviour
     {
         _currentHealth = maxHealth;
     }
-
-    public event EventHandler OnEnemyAttack;
 
     public void TakeDamage(int damage)
     {
