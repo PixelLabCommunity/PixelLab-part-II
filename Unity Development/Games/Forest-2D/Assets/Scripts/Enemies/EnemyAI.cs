@@ -13,20 +13,24 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float wanderTimerMax = 2f;
     [SerializeField] private bool isChasingEnemy;
     [SerializeField] private bool isAttackingEnemy;
-    private readonly float _attackingDistance = 2f;
-    private readonly float _attackRate = 2f;
+    [SerializeField] private float chasingDistance = 4f;
+    [SerializeField] private float chasingSpeedMultiplier = 2f;
+    [SerializeField] private float attackingDistance = 2f;
+    [SerializeField] private float attackRate = 2f;
 
     private readonly Vector3 _changeRotation = new(0, -180, 0);
-    private readonly float _chasingDistance = 4f;
-    private readonly float _chasingSpeedMultiplier = 2f;
+    private readonly float _checkDirectionDuration = 0.1f;
     private readonly Vector3 _stateRotation = new(0, 0, 0);
     private float _chasingSpeed;
     private State _currentSate;
     private float _currentTime;
+    private Vector3 _lastPosition;
 
 
     private NavMeshAgent _navMeshAgent;
     private float _nextAttackTime;
+
+    private float _nextCheckDirectionTime;
     private Vector3 _startingPosition;
     private float _walkingSpeed;
     private float _walkingTime;
@@ -41,6 +45,7 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         AiState();
+        MovementDirectionHandler();
     }
 
 
@@ -78,11 +83,22 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    private void MovementDirectionHandler()
+    {
+        if (IsRunning())
+            ChangeFacingDirection(_lastPosition, transform.position);
+        else if (_currentSate == State.Attacking)
+            ChangeFacingDirection(transform.position,
+                PlayerControls.template.transform.position);
+
+        _lastPosition = transform.position;
+        _nextCheckDirectionTime = Time.time + _checkDirectionDuration;
+    }
+
     private void Wandering()
     {
         _startingPosition = transform.position;
         _wanderPosition = GetWanderPosition();
-        ChangeFacingDirection(_startingPosition, _wanderPosition);
         _navMeshAgent.SetDestination(_wanderPosition);
     }
 
@@ -91,7 +107,7 @@ public class EnemyAI : MonoBehaviour
         if (Time.time > _nextAttackTime)
         {
             OnEnemyAttack?.Invoke(this, EventArgs.Empty);
-            _nextAttackTime = Time.time + _attackRate;
+            _nextAttackTime = Time.time + attackRate;
         }
     }
 
@@ -106,16 +122,21 @@ public class EnemyAI : MonoBehaviour
         _navMeshAgent.SetDestination(PlayerControls.template.transform.position);
     }
 
+    public float GetWalkingAnimationSpeed()
+    {
+        return _navMeshAgent.speed / _walkingSpeed;
+    }
+
     private void CheckCurrentState()
     {
         var distanceToPlayer = Vector3.Distance(transform.position, PlayerControls.template.transform.position);
         var newState = State.Wandering;
         if (isChasingEnemy)
-            if (distanceToPlayer <= _chasingDistance)
+            if (distanceToPlayer <= chasingDistance)
                 newState = State.Chasing;
 
         if (isAttackingEnemy)
-            if (distanceToPlayer <= _attackingDistance)
+            if (distanceToPlayer <= attackingDistance)
                 newState = State.Attacking;
 
         if (newState == _currentSate) return;
@@ -152,7 +173,7 @@ public class EnemyAI : MonoBehaviour
         _navMeshAgent.updateUpAxis = false;
         var speed = _navMeshAgent.speed;
         _walkingSpeed = speed;
-        _chasingSpeed = speed * _chasingSpeedMultiplier;
+        _chasingSpeed = speed * chasingSpeedMultiplier;
     }
 
     private void ChangeFacingDirection(Vector2 sourcePosition, Vector2 targetPosition)

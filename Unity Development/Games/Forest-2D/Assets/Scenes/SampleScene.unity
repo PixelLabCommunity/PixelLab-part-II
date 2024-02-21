@@ -920,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 1576585746}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -9.05, y: 2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1150,6 +1150,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1032999988}
     m_Modifications:
+    - target: {fileID: 730786729558906895, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268126783186500159, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: startingState
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268126783186500159, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: isChasingEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268126783186500159, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: wanderTimerMax
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268126783186500159, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: isAttackingEnemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3982366428994886156, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.95
@@ -1194,31 +1214,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 7466844053014891227, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
+      propertyPath: m_Speed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7186000503530366428, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5160572690875867545}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
---- !u!1 &5160572690875867544 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7186000503530366428, guid: a787d5efb1bb9a148a3df20d46f46810, type: 3}
-  m_PrefabInstance: {fileID: 5160572690875867543}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5160572690875867545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5160572690875867544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 703083fa9f201ee4c850ab288e987cf8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5852065506148552736
 PrefabInstance:
   m_ObjectHideFlags: 0
