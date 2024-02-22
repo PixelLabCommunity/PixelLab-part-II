@@ -457,6 +457,16 @@ FodyWeavers.xsd
 /Unity Development/Learning/URP-3D/ArtifactDB
 /Unity Development/Learning/URP-3D//Library/APIUpdater/
 
+/Unity Development/Learning/HDRP-3D/Library/Artifacts/
+/Unity Development/Learning/HDRP-3D/Library/Bee/
+/Unity Development/Learning/HDRP-3D/Library/PackageCache/
+/Unity Development/Learning/HDRP-3D/Library/StateCache/
+/Unity Development/Learning/HDRP-3D/Library/ShaderCache/
+/Unity Development/Learning/HDRP-3D/Library/PlayerDataCache/
+/Unity Development/Learning/HDRP-3D/Library/BurstCache/
+/Unity Development/Learning/HDRP-3D/ArtifactDB
+/Unity Development/Learning/HDRP-3D//Library/APIUpdater/
+
 
 # JetBrains Rider
 *.sln.iml
