@@ -447,6 +447,16 @@ FodyWeavers.xsd
 /Unity Development/Games/Ruby's Quest-2D/ArtifactDB
 /Unity Development/Games/Ruby's Quest-2D/Library/APIUpdater/
 
+/Unity Development/Learning/URP-3D/Library/Artifacts/
+/Unity Development/Learning/URP-3D/Library/Bee/
+/Unity Development/Learning/URP-3D/Library/PackageCache/
+/Unity Development/Learning/URP-3D/Library/StateCache/
+/Unity Development/Learning/URP-3D/Library/ShaderCache/
+/Unity Development/Learning/URP-3D/Library/PlayerDataCache/
+/Unity Development/Learning/URP-3D/Library/BurstCache/
+/Unity Development/Learning/URP-3D/ArtifactDB
+/Unity Development/Learning/URP-3D//Library/APIUpdater/
+
 
 # JetBrains Rider
 *.sln.iml
